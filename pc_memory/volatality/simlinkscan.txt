@@ -1,0 +1,679 @@
+﻿PassMark Volatility Workbench Log file  -  http://www.passmark.com
+==================================================================
+Volatility Workbench Version: V3.0 Build 1006
+Volatility 3 Framework Version: 2.5.0
+Log Date: Thu Apr  4 22:38:08 2024
+
+
+Time Stamp: Thu Apr  4 22:16:11 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.pslist.PsList
+Volatility 3 Framework 2.5.0
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+4	0	System	0xc6091bc88040	125	-	N/A	False	2023-06-22 14:24:50.000000 	N/A	Disabled
+92	4	Registry	0xc6091bcea080	4	-	N/A	False	2023-06-22 14:24:45.000000 	N/A	Disabled
+308	4	smss.exe	0xc6091cd13040	2	-	N/A	False	2023-06-22 14:24:50.000000 	N/A	Disabled
+416	408	csrss.exe	0xc6091f23b080	10	-	0	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+496	408	wininit.exe	0xc6091fa4b080	1	-	0	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+508	484	csrss.exe	0xc6091fac1140	12	-	1	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+572	484	winlogon.exe	0xc6091fc21080	5	-	1	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+640	496	services.exe	0xc6091fc81080	6	-	0	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+648	496	lsass.exe	0xc6091fc83080	9	-	0	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+748	496	fontdrvhost.ex	0xc6091fd18300	5	-	0	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+756	572	fontdrvhost.ex	0xc6091fd1c140	5	-	1	False	2023-06-22 14:24:51.000000 	N/A	Disabled
+768	640	svchost.exe	0xc6091fd35240	14	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+876	640	svchost.exe	0xc6091fa7e080	9	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+956	572	dwm.exe	0xc6091fb16080	15	-	1	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+412	640	svchost.exe	0xc6091c8ac080	63	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+716	640	svchost.exe	0xc6091fb9e2c0	13	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+388	640	svchost.exe	0xc6091fbc0300	15	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+896	640	svchost.exe	0xc6091fbc4280	16	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+1148	640	svchost.exe	0xc6092047c2c0	17	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+1280	640	svchost.exe	0xc609205212c0	17	-	0	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+1424	4	MemCompression	0xc6091bd62040	18	-	N/A	False	2023-06-22 14:24:52.000000 	N/A	Disabled
+1520	640	svchost.exe	0xc609205a2300	12	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1632	640	svchost.exe	0xc6091bd09080	3	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1644	640	svchost.exe	0xc6091bd03080	5	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1704	640	svchost.exe	0xc6091bc9d080	3	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1740	640	spoolsv.exe	0xc6092070c240	7	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1820	640	svchost.exe	0xc60920733300	13	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1984	640	svchost.exe	0xc609208302c0	2	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+1992	640	svchost.exe	0xc609208412c0	7	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+2076	640	svchost.exe	0xc609208e9080	10	-	0	False	2023-06-22 14:24:53.000000 	N/A	Disabled
+2176	640	vmtoolsd.exe	0xc60920957280	9	-	0	False	2023-06-22 14:24:54.000000 	N/A	Disabled
+2184	640	VGAuthService.	0xc60920959300	2	-	0	False	2023-06-22 14:24:54.000000 	N/A	Disabled
+2728	640	dllhost.exe	0xc60920834080	14	-	0	False	2023-06-22 14:24:55.000000 	N/A	Disabled
+2764	768	WmiPrvSE.exe	0xc60920ce5280	12	-	0	False	2023-06-22 14:24:55.000000 	N/A	Disabled
+2840	640	svchost.exe	0xc60920bf1080	26	-	0	False	2023-06-22 14:24:55.000000 	N/A	Disabled
+2884	640	msdtc.exe	0xc60920c102c0	12	-	0	False	2023-06-22 14:24:56.000000 	N/A	Disabled
+
+776	412	sihost.exe	0xc60920aa9300	9	-	1	False	2023-06-22 14:24:58.000000 	N/A	Disabled
+1972	640	svchost.exe	0xc60920f21340	11	-	1	False	2023-06-22 14:24:58.000000 	N/A	Disabled
+1292	412	taskhostw.exe	0xc60920f25340	9	-	1	False	2023-06-22 14:24:58.000000 	N/A	Disabled
+3208	896	ctfmon.exe	0xc60920f862c0	8	-	1	False	2023-06-22 14:24:58.000000 	N/A	Disabled
+3400	572	userinit.exe	0xc60921109080	0	-	1	False	2023-06-22 14:24:59.000000 	2023-06-22 14:25:26.000000 	Disabled
+3440	3400	explorer.exe	0xc60921111080	62	-	1	False	2023-06-22 14:24:59.000000 	N/A	Disabled
+3608	640	svchost.exe	0xc60921193080	10	-	1	False	2023-06-22 14:25:00.000000 	N/A	Disabled
+3996	768	StartMenuExper	0xc60921374080	6	-	1	False	2023-06-22 14:25:02.000000 	N/A	Disabled
+3584	768	RuntimeBroker.	0xc60921545340	4	-	1	False	2023-06-22 14:25:02.000000 	N/A	Disabled
+4132	768	SearchApp.exe	0xc609215ba0c0	30	-	1	False	2023-06-22 14:25:02.000000 	N/A	Disabled
+4252	768	RuntimeBroker.	0xc609216be340	6	-	1	False	2023-06-22 14:25:03.000000 	N/A	Disabled
+4356	640	SearchIndexer.	0xc6092176c240	15	-	0	False	2023-06-22 14:25:03.000000 	N/A	Disabled
+5044	3440	msedge.exe	0xc6092129a080	54	-	1	False	2023-06-22 14:25:08.000000 	N/A	Disabled
+
+5104	5044	msedge.exe	0xc60920f26080	8	-	1	False	2023-06-22 14:25:08.000000 	N/A	Disabled
+2636	5044	msedge.exe	0xc60921c1f080	16	-	1	False	2023-06-22 14:25:09.000000 	N/A	Disabled
+1404	5044	msedge.exe	0xc60921c20080	14	-	1	False	2023-06-22 14:25:09.000000 	N/A	Disabled
+4196	5044	msedge.exe	0xc60921bb0080	9	-	1	False	2023-06-22 14:25:09.000000 	N/A	Disabled
+5416	768	TextInputHost.	0xc60921e40080	8	-	1	False	2023-06-22 14:25:10.000000 	N/A	Disabled
+5784	768	WmiPrvSE.exe	0xc6092128e080	7	-	0	False	2023-06-22 14:25:14.000000 	N/A	Disabled
+5836	768	RuntimeBroker.	0xc60921982080	2	-	1	False	2023-06-22 14:25:14.000000 	N/A	Disabled
+5880	3440	SecurityHealth	0xc60922145080	3	-	1	False	2023-06-22 14:25:15.000000 	N/A	Disabled
+5908	640	SecurityHealth	0xc609214e0280	9	-	0	False	2023-06-22 14:25:15.000000 	N/A	Disabled
+5988	640	svchost.exe	0xc609216df300	5	-	0	False	2023-06-22 14:25:15.000000 	N/A	Disabled
+6032	3440	vm3dservice.ex	0xc609216e4080	1	-	1	False	2023-06-22 14:25:16.000000 	N/A	Disabled
+6092	768	PhoneExperienc	0xc609216dd080	12	-	1	False	2023-06-22 14:25:16.000000 	N/A	Disabled
+6132	3440	vmtoolsd.exe	0xc60921821080	9	-	1	False	2023-06-22 14:25:16.000000 	N/A	Disabled
+5460	3440	OneDrive.exe	0xc60922162080	24	-	1	True	2023-06-22 14:25:17.000000 	N/A	Disabled
+6720	5044	msedge.exe	0xc60922319080	9	-	1	False	2023-06-22 14:25:23.000000 	N/A	Disabled
+6388	5044	msedge.exe	0xc60922163080	15	-	1	False	2023-06-22 14:25:30.000000 	N/A	Disabled
+6672	768	RuntimeBroker.	0xc6092202a080	1	-	1	False	2023-06-22 14:25:31.000000 	N/A	Disabled
+1624	5044	msedge.exe	0xc609222bc080	19	-	1	False	2023-06-22 14:25:41.000000 	N/A	Disabled
+6396	5044	msedge.exe	0xc609214b7080	13	-	1	False	2023-06-22 14:25:41.000000 	N/A	Disabled
+6284	768	FileCoAuth.exe	0xc60922388080	5	-	1	True	2023-06-22 14:26:00.000000 	N/A	Disabled
+4244	5044	msedge.exe	0xc60921547080	16	-	1	False	2023-06-22 14:26:02.000000 	N/A	Disabled
+5012	640	MsMpEng.exe	0xc6092277e300	27	-	0	False	2023-06-22 14:26:36.000000 	N/A	Disabled
+6896	640	NisSrv.exe	0xc60922414080	6	-	0	False	2023-06-22 14:26:42.000000 	N/A	Disabled
+828	768	SystemSettings	0xc609216e9080	27	-	1	False	2023-06-22 14:26:52.000000 	N/A	Disabled
+6064	768	ApplicationFra	0xc6092167f080	6	-	1	False	2023-06-22 14:26:52.000000 	N/A	Disabled
+536	768	UserOOBEBroker	0xc60922777080	4	-	1	False	2023-06-22 14:26:54.000000 	N/A	Disabled
+1168	640	SgrmBroker.exe	0xc60921483080	7	-	0	False	2023-06-22 14:26:55.000000 	N/A	Disabled
+2072	640	svchost.exe	0xc60922778080	8	-	0	False	2023-06-22 14:26:56.000000 	N/A	Disabled
+6608	640	svchost.exe	0xc609215ae080	5	-	0	False	2023-06-22 14:28:37.000000 	N/A	Disabled
+2540	768	smartscreen.ex	0xc60921adb080	14	-	1	False	2023-06-22 14:32:53.000000 	N/A	Disabled
+
+3096	1520	audiodg.exe	0xc609227a4080	7	-	0	False	2023-06-22 14:32:54.000000 	N/A	Disabled
+6232	3440	DumpIt.exe	0xc609222c1080	3	-	1	True	2023-06-22 14:32:54.000000 	N/A	Disabled
+6316	6232	conhost.exe	0xc609215af080	6	-	1	False	2023-06-22 14:32:55.000000 	N/A	Disabled
+
+Time Stamp: Thu Apr  4 22:16:18 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:16:59 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" windows.registry.hivescan.HiveScan -h
+Volatility 3 Framework 2.5.0
+usage: volatility windows.registry.hivescan.HiveScan [-h]
+options:
+  -h, --help  show this help message and exit
+
+Time Stamp: Thu Apr  4 22:17:01 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:17:11 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.registry.hivescan.HiveScan 
+Volatility 3 Framework 2.5.0
+Offset
+0x890e2424f000
+0x890e24c84000
+0x890e2315a000
+0x890e24b19000
+0x890e22c2a000
+0x890e2544d000
+0x890e259d9000
+0x890e23124000
+0x890e23128000
+0x890e1f064000
+0x890e22eb4000
+0x890e1fb35000
+0x890e24f59000
+0x890e229aa000
+0x890e1f10e000
+0x890e254ac000
+0x890e24092000
+0x890e24ee9000
+0x890e24b17000
+0x890e22841000
+0x890e1f054000
+0x890e22e49000
+0x890e1fb33000
+0x890e23126000
+0x890e22cda000
+0x890e24cec000
+0x890e23122000
+0x890e1f6d6000
+0x890e2424d000
+
+Time Stamp: Thu Apr  4 22:17:20 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:17:32 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.registry.printkey.PrintKey 
+Volatility 3 Framework 2.5.0
+Last Write Time	Hive Offset	Type	Key	Name	Data	Volatile
+2023-06-22 14:24:45.000000 	0x890e1f054000	Key	[NONAME]	A		False
+2023-06-22 14:24:45.000000 	0x890e1f054000	Key	[NONAME]	MACHINE		False
+2023-06-22 14:24:45.000000 	0x890e1f054000	Key	[NONAME]	USER		False
+2023-06-22 14:24:45.000000 	0x890e1f054000	Key	[NONAME]	WC		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	ActivationBroker		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	ControlSet001		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	DriverDatabase		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	HardwareConfig		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	Input		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	Keyboard Layout		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	Maps		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	ResourceManager		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	ResourcePolicyStore		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	RNG		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	Select		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	Setup		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	Software		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	State		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	WaaS		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	WPA		False
+2023-06-22 14:24:45.000000 	0x890e1f064000	Key	\REGISTRY\MACHINE\SYSTEM	CurrentControlSet		True
+-	0x890e1fb35000	Key	?\	-		-
+2023-06-22 14:26:32.000000 	0x890e1fb33000	Key	\SystemRoot\System32\Config\SOFTWARE	Classes		False
+2023-06-22 14:26:32.000000 	0x890e1fb33000	Key	\SystemRoot\System32\Config\SOFTWARE	Intel		False
+2023-06-22 14:26:32.000000 	0x890e1fb33000	Key	\SystemRoot\System32\Config\SOFTWARE	Microsoft		False
+2023-06-22 14:26:32.000000 	0x890e1fb33000	Key	\SystemRoot\System32\Config\SOFTWARE	OEM		False
+2023-06-22 14:26:32.000000 	0x890e1fb33000	Key	\SystemRoot\System32\Config\SOFTWARE	WinChipHead		False
+2023-06-22 14:26:32.000000 	0x890e1fb33000	Key	\SystemRoot\System32\Config\SOFTWARE	WOW6432Node		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	Console		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	Control Panel		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	Environment		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	EUDC		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	Keyboard Layout		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	Printers		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	Software		False
+2023-06-21 21:16:27.000000 	0x890e22841000	Key	\SystemRoot\System32\Config\DEFAULT	System		False
+-	0x890e229aa000	Key	?\	-		-
+-	0x890e22c2a000	Key	?\	-		-
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	AppEvents		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	Console		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	Control Panel		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	Environment		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	EUDC		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	Network		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	SOFTWARE		False
+2023-06-22 00:13:32.000000 	0x890e22cda000	Key	\??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT	System		False
+-	0x890e22e49000	Key	?\	-		-
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	AppEvents		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	Console		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	Control Panel		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	Environment		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	EUDC		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	Keyboard Layout		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	Network		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	SOFTWARE		False
+2023-06-22 00:13:33.000000 	0x890e22eb4000	Key	\??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT	System		False
+2023-06-22 14:19:43.000000 	0x890e24092000	Key	\??\C:\WINDOWS\AppCompat\Programs\Amcache.hve	Root		False
+2023-06-22 14:19:43.000000 	0x890e24092000	REG_SZ	\??\C:\WINDOWS\AppCompat\Programs\Amcache.hve	CreatingCommand	""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /svc"	False
+2023-06-22 14:19:43.000000 	0x890e24092000	REG_SZ	\??\C:\WINDOWS\AppCompat\Programs\Amcache.hve	CreatingModule	"C:\WINDOWS\SYSTEM32\aepic.dll"	False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	AppEvents		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Console		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Control Panel		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Environment		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	EUDC		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Keyboard Layout		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Microsoft		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Network		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Printers		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	SOFTWARE		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	System		False
+2023-06-22 14:24:58.000000 	0x890e2424d000	Key	\??\C:\Users\krist\ntuser.dat	Volatile Environment		True
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	*		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.amr		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.fbx		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.glb		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.gltf		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.m4r		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.wsb		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.xps		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	.xvid		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppID		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppX69r31t6nmawqr1gdamcsndphj2v4a6cx		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppX9vwggs9kbe3mn0w816545e7zs1x6vegr		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppXk0g4vb8gvt7b93tg50ybcy892pge6jmt		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppXkytm3hnq0vzg49fdp50v6n482apdb470		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	-		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppXnzh5v9w1s9pv2y889efv7t8bg0msmhca		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	AppXqmt9n48kdgabchqtfjw3a4n5as0gk0vt		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	bingmaps		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	CLSID		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	Directory		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	grvopen		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	IE.AssocFile.URL		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	Interface		False
+
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	lnkfile		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	Local Settings		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	mailto		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft-edge		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft-edge-holographic		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft.windows.camera		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft.windows.camera.multipicker		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft.windows.camera.picker		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft.windows.photos.crop		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	microsoft.windows.photos.picker		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	ms-print-addprinter		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	ms-xbl-3d8b930f		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	mswindowsmusic		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	mswindowsvideo		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	outlookaccounts		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	outlookcal		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	read		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	WOW6432Node		False
+2023-06-22 14:25:21.000000 	0x890e2424f000	Key	\??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat	xbls		False
+-	0x890e24c84000	Key	?\	-		-
+-	0x890e24cec000	Key	?\	-		-
+-	0x890e24ee9000	Key	?\	-		-
+-	0x890e24f59000	Key	?\	-		-
+-	0x890e254ac000	Key	?\	-		-
+-	0x890e259d9000	Key	?\	-		-
+-	0x890e2544d000	Key	?\	-		-
+-	0x890e24b17000	Key	?\	-		-
+-	0x890e24b19000	Key	?\	-		-
+-	0x890e2315a000	Key	?\	-		-
+-	0x890e23122000	Key	?\	-		-
+-	0x890e23124000	Key	?\	-		-
+-	0x890e23126000	Key	?\	-		-
+-	0x890e23128000	Key	?\	-		-
+
+Time Stamp: Thu Apr  4 22:17:39 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:24:36 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.sessions.Sessions 
+Volatility 3 Framework 2.5.0
+Session ID	Session Type	Process ID	Process	User Name	Create Time
+N/A	-	4	System	-	2023-06-22 14:24:50.000000 
+N/A	-	92	Registry	-	2023-06-22 14:24:45.000000 
+N/A	-	308	smss.exe	-	2023-06-22 14:24:50.000000 
+0	-	416	csrss.exe	-	2023-06-22 14:24:51.000000 
+0	-	496	wininit.exe	-	2023-06-22 14:24:51.000000 
+0	-	640	services.exe	/SYSTEM	2023-06-22 14:24:51.000000 
+
+0	-	648	lsass.exe	/SYSTEM	2023-06-22 14:24:51.000000 
+0	-	748	fontdrvhost.ex	-	2023-06-22 14:24:51.000000 
+0	-	768	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:52.000000 
+0	-	876	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:52.000000 
+0	-	412	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:52.000000 
+0	-	716	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:52.000000 
+0	-	388	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:52.000000 
+0	-	896	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:52.000000 
+0	-	1148	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:52.000000 
+0	-	1280	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:52.000000 
+0	-	1520	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:53.000000 
+0	-	1632	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:53.000000 
+0	-	1644	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:53.000000 
+0	-	1704	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:53.000000 
+0	-	1740	spoolsv.exe	-	2023-06-22 14:24:53.000000 
+0	-	1820	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:53.000000 
+0	-	1984	svchost.exe	-	2023-06-22 14:24:53.000000 
+0	-	1992	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:24:53.000000 
+0	-	2076	svchost.exe	-	2023-06-22 14:24:53.000000 
+0	-	2176	vmtoolsd.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:54.000000 
+0	-	2184	VGAuthService.	-	2023-06-22 14:24:54.000000 
+0	-	2728	dllhost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:55.000000 
+0	-	2764	WmiPrvSE.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:55.000000 
+0	-	2840	svchost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:55.000000 
+0	-	2884	msdtc.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:56.000000 
+0	-	4356	SearchIndexer.	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:25:03.000000 
+0	-	5784	WmiPrvSE.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:25:14.000000 
+0	-	5908	SecurityHealth	-	2023-06-22 14:25:15.000000 
+0	-	5988	svchost.exe	-	2023-06-22 14:25:15.000000 
+0	-	5012	MsMpEng.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:26:36.000000 
+0	-	6896	NisSrv.exe	-	2023-06-22 14:26:42.000000 
+0	-	1168	SgrmBroker.exe	-	2023-06-22 14:26:55.000000 
+0	-	2072	svchost.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:26:56.000000 
+0	-	6608	svchost.exe	-	2023-06-22 14:28:37.000000 
+0	-	3096	audiodg.exe	NT AUTHORITY/LOCAL SERVICE	2023-06-22 14:32:54.000000 
+1	-	508	csrss.exe	/SYSTEM	2023-06-22 14:24:51.000000 
+1	-	572	winlogon.exe	-	2023-06-22 14:24:51.000000 
+1	-	756	fontdrvhost.ex	-	2023-06-22 14:24:51.000000 
+1	-	956	dwm.exe	/SYSTEM	2023-06-22 14:24:52.000000 
+1	-	776	sihost.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:24:58.000000 
+1	-	1972	svchost.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:24:58.000000 
+1	-	1292	taskhostw.exe	-	2023-06-22 14:24:58.000000 
+1	-	3208	ctfmon.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:24:58.000000 
+1	-	3400	userinit.exe	-	2023-06-22 14:24:59.000000 
+1	Console	3440	explorer.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:24:59.000000 
+1	-	3608	svchost.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:25:00.000000 
+1	-	3996	StartMenuExper	DESKTOP-JKS05LO/krist	2023-06-22 14:25:02.000000 
+1	-	3584	RuntimeBroker.	-	2023-06-22 14:25:02.000000 
+1	-	4132	SearchApp.exe	-	2023-06-22 14:25:02.000000 
+1	-	4252	RuntimeBroker.	DESKTOP-JKS05LO/krist	2023-06-22 14:25:03.000000 
+1	Console	5044	msedge.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:25:08.000000 
+1	-	5104	msedge.exe	-	2023-06-22 14:25:08.000000 
+1	-	2636	msedge.exe	-	2023-06-22 14:25:09.000000 
+1	Console	1404	msedge.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:25:09.000000 
+1	-	4196	msedge.exe	-	2023-06-22 14:25:09.000000 
+1	-	5416	TextInputHost.	DESKTOP-JKS05LO/krist	2023-06-22 14:25:10.000000 
+1	-	5836	RuntimeBroker.	-	2023-06-22 14:25:14.000000 
+1	Console	5880	SecurityHealth	DESKTOP-JKS05LO/krist	2023-06-22 14:25:15.000000 
+1	-	6032	vm3dservice.ex	-	2023-06-22 14:25:16.000000 
+1	-	6092	PhoneExperienc	-	2023-06-22 14:25:16.000000 
+1	Console	6132	vmtoolsd.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:25:16.000000 
+1	-	5460	OneDrive.exe	-	2023-06-22 14:25:17.000000 
+1	-	6720	msedge.exe	-	2023-06-22 14:25:23.000000 
+1	-	6388	msedge.exe	-	2023-06-22 14:25:30.000000 
+1	-	6672	RuntimeBroker.	DESKTOP-JKS05LO/krist	2023-06-22 14:25:31.000000 
+1	-	1624	msedge.exe	-	2023-06-22 14:25:41.000000 
+1	-	6396	msedge.exe	-	2023-06-22 14:25:41.000000 
+1	Console	6284	FileCoAuth.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:26:00.000000 
+1	-	4244	msedge.exe	-	2023-06-22 14:26:02.000000 
+1	-	828	SystemSettings	DESKTOP-JKS05LO/krist	2023-06-22 14:26:52.000000 
+1	-	6064	ApplicationFra	DESKTOP-JKS05LO/krist	2023-06-22 14:26:52.000000 
+1	-	536	UserOOBEBroker	-	2023-06-22 14:26:54.000000 
+1	-	2540	smartscreen.ex	DESKTOP-JKS05LO/krist	2023-06-22 14:32:53.000000 
+1	-	6232	DumpIt.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:32:54.000000 
+1	-	6316	conhost.exe	DESKTOP-JKS05LO/krist	2023-06-22 14:32:55.000000 
+N/A	-	1424	MemCompression	-	2023-06-22 14:24:52.000000 
+
+Time Stamp: Thu Apr  4 22:24:40 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:26:29 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.sessions.Sessions --pid 92 
+Volatility 3 Framework 2.5.0
+Session ID	Session Type	Process ID	Process	User Name	Create Time
+N/A	-	92	Registry	-	2023-06-22 14:24:45.000000 
+
+Time Stamp: Thu Apr  4 22:26:35 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:26:47 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.sessions.Sessions --pid 748 
+Volatility 3 Framework 2.5.0
+Session ID	Session Type	Process ID	Process	User Name	Create Time
+0	-	748	fontdrvhost.ex	-	2023-06-22 14:24:51.000000 
+
+Time Stamp: Thu Apr  4 22:26:52 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:27:03 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.sessions.Sessions --pid 2728 
+Volatility 3 Framework 2.5.0
+Session ID	Session Type	Process ID	Process	User Name	Create Time
+0	-	2728	dllhost.exe	WORKGROUP/DESKTOP-JKS05LO$	2023-06-22 14:24:55.000000 
+
+Time Stamp: Thu Apr  4 22:27:08 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:27:24 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.sessions.Sessions --pid 2540 
+Volatility 3 Framework 2.5.0
+Session ID	Session Type	Process ID	Process	User Name	Create Time
+1	-	2540	smartscreen.ex	DESKTOP-JKS05LO/krist	2023-06-22 14:32:53.000000 
+
+Time Stamp: Thu Apr  4 22:27:29 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:29:41 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.registry.userassist.UserAssist 
+Volatility 3 Framework 2.5.0
+Hive Offset	Hive Name	Path	Last Write Time	Type	Name	ID	Count	Focus Count	Time Focused	Last Updated	Raw Data
+0x890e22cda000	hive0x890e22cda000	-	-	-	-	-	-	-	-	-	-
+0x890e22eb4000	hive0x890e22eb4000	-	-	-	-	-	-	-	-	-	-
+0x890e2424d000	hive0x890e2424d000	-	-	-	-	-	-	-	-	-	-
+
+Time Stamp: Thu Apr  4 22:29:47 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:30:12 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.skeleton_key_check.Skeleton 
+Volatility 3 Framework 2.5.0
+PID	Process	Skeleton Key Found	rc4HmacInitialize	rc4HmacDecrypt
+
+Time Stamp: Thu Apr  4 22:30:17 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:30:26 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.statistics.Statistics 
+Volatility 3 Framework 2.5.0
+Valid pages (all)	Valid pages (large)	Swapped Pages (all)	Swapped Pages (large)	Invalid Pages (all)	Invalid Pages (large)	Other Invalid Pages (all)
+0	0	24100	24100	1252684	1252684	1
+
+Time Stamp: Thu Apr  4 22:31:04 2024
+
+
+******* End of command output ******
+
+Time Stamp: Thu Apr  4 22:31:30 2024
+
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.symlinkscan.SymlinkScan 
+Volatility 3 Framework 2.5.0
+Offset	CreateTime	From Name	To Name
+0x890e1f021880	2023-06-22 14:24:45.000000 	DosDevices	\??
+0x890e1f040d00	2023-06-22 14:24:45.000000 	Global	\GLOBAL??
+0x890e1f088850	2023-06-22 14:24:45.000000 	SystemRoot	\Device\BootDevice\WINDOWS
+0x890e1f08cfa0	2023-06-22 14:24:45.000000 	GLOBALROOT	
+0x890e1f08cfb0	-		
+0x890e1f0c8640	2023-06-22 14:24:45.000000 	SYSTEM	\SystemRoot
+0x890e1f0cb1c0	2023-06-22 14:24:45.000000 	OSDataDevice	\ArcName\multi(0)disk(0)rdisk(0)partition(4)
+0x890e1f0cb520	2023-06-22 14:24:45.000000 	OSDataRoot	\Device\OSDataDevice
+0x890e1f1dc780	2023-06-22 14:24:51.000000 	PCI#VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00#3&61aaa01&0&78#{1ca05180-a699-450a-9a0c-de4fbe3ddd89}	\Device\NTPNP_PCI0006
+0x890e1f1dc990	2023-06-22 14:24:51.000000 	DISPLAY1	\Device\Video0
+0x890e1f1dca40	2023-06-22 14:24:51.000000 	Windows	\Windows
+0x890e1f1dcaf0	2023-06-22 14:24:51.000000 	Global	\BaseNamedObjects
+0x890e1f1dcba0	2023-06-22 14:24:51.000000 	DISPLAY4	\Device\Video3
+0x890e1f1dcfc0	2023-06-22 14:24:51.000000 	0	\BaseNamedObjects
+0x890e1f1dd1d0	2023-06-22 14:24:51.000000 	PCI#VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00#3&61aaa01&0&78#{5b45201d-f2f2-4f3b-85bb-30ff1f953599}	\Device\NTPNP_PCI0006
+0x890e1f1dd330	2023-06-22 14:24:51.000000 	DISPLAY8	\Device\Video7
+0x890e1f1dd490	2023-06-22 14:24:51.000000 	Local	\BaseNamedObjects
+0x890e1f1dd5f0	2023-06-22 14:24:51.000000 	Session	\Sessions\BNOLINKS
+0x890e1f1dd750	2023-06-22 14:24:51.000000 	DISPLAY7	\Device\Video6
+0x890e1f1dd800	2023-06-22 14:24:51.000000 	ROOT#BasicDisplay#0000#{5b45201d-f2f2-4f3b-85bb-30ff1f953599}	\Device\00000002
+0x890e1f1dd8b0	2023-06-22 14:24:51.000000 	DISPLAY9	\Device\Video8
+0x890e1f1dd960	2023-06-22 14:24:51.000000 	AppContainerNamedObjects	\Sessions\0\AppContainerNamedObjects
+0x890e1f1ddcd0	2023-06-22 14:24:51.000000 	AppContainerNamedObjects	\Sessions\1\AppContainerNamedObjects
+0x890e1f1de1a0	2023-06-22 14:24:51.000000 	ROOT#BasicRender#0000#{1ca05180-a699-450a-9a0c-de4fbe3ddd89}	\Device\0000000a
+0x890e1f1de3b0	2023-06-22 14:24:51.000000 	Session	\Sessions\BNOLINKS
+0x890e1f494410	2023-06-22 14:24:45.000000 	RESOURCE_HUB	\Device\RESOURCE_HUB
+0x890e1f494650	2023-06-22 14:24:45.000000 	MSSGRMAGENTSYS	\Device\MSSGRMAGENTSYS
+0x890e1f494ad0	2023-06-22 14:24:50.000000 	PCI#VEN_15AD&DEV_0774&SUBSYS_197615AD&REV_00#4&bbf9765&0&0088#{3abf6f2d-71c4-462a-8a92-1e6861e6af27}	\Device\NTPNP_PCI0042
+0x890e1f494b60	2023-06-22 14:24:50.000000 	HCD1	\Device\USBFDO-1
+0x890e1f494ec0	2023-06-22 14:24:45.000000 	ACPI_ROOT_OBJECT	\Device\0000000f
+0x890e1f494f50	2023-06-22 14:24:46.000000 	PciControl	\Device\PciControl
+0x890e1f4f52b0	2023-06-22 14:24:50.000000 	Ntfs	\Ntfs
+0x890e1f4f5610	2023-06-22 14:24:50.000000 	HCD0	\Device\USBFDO-0
+0x890e1f4f5cd0	2023-06-22 14:24:50.000000 	PCI#VEN_15AD&DEV_0770&SUBSYS_077015AD&REV_00#4&bbf9765&0&1088#{3abf6f2d-71c4-462a-8a92-1e6861e6af27}	\Device\NTPNP_PCI0044
+0x890e1f4f5d60	2023-06-22 14:24:50.000000 	USB#ROOT_HUB20#5&36a4b5d6&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}	\Device\USBPDO-0
+0x890e1f4f5e80	2023-06-22 14:24:50.000000 	NDIS	\Device\Ndis
+0x890e1f57f2f0	2023-06-22 14:24:47.000000 	Spaceport	\Device\Spaceport
+0x890e1f57f380	2023-06-22 14:24:47.000000 	ROOT#spaceport#0000#{53f5630e-b6bf-11d0-94f2-00a0c91efb8b}	\Device\00000006
+0x890e1f57f4a0	2023-06-22 14:24:50.000000 	LOG:	\clfs
+0x890e1f57f770	2023-06-22 14:24:47.000000 	VDRVROOT	\Device\00000005
+0x890e1f57f800	2023-06-22 14:24:47.000000 	ROOT#vdrvroot#0000#{2e34d650-5819-42ca-84ae-d30803bae505}	\Device\00000005
+0x890e1f57f9b0	2023-06-22 14:24:47.000000 	PartmgrControl	\Device\PartmgrControl
+0x890e1f57fa40	2023-06-22 14:24:47.000000 	ROOT#spaceport#0000#{ef66a56f-88d1-4cd8-98c4-49faf57ad8af}	\Device\00000006
+0x890e1f57fc80	2023-06-22 14:24:47.000000 	ScsiPort2	\Device\Ide\IdePort1
+0x890e1f5804f0	2023-06-22 14:24:47.000000 	Scsi2:	\Device\Ide\IdePort1
+0x890e1f580580	2023-06-22 14:24:47.000000 	MountPointManager	\Device\MountPointManager
+0x890e1f580730	2023-06-22 14:24:47.000000 	VMCIDev	\Device\VMCIGuestDev
+0x890e1f580c40	2023-06-22 14:24:47.000000 	VolMgrControl	\Device\VolMgrControl
+0x890e1f580d60	2023-06-22 14:24:47.000000 	ROOT#volmgr#0000#{53f5630e-b6bf-11d0-94f2-00a0c91efb8b}	\Device\00000001
+0x890e1f580e80	2023-06-22 14:24:47.000000 	vmci	\Device\vmci
+0x890e1f65e2f0	2023-06-22 14:24:50.000000 	NXTIPSECDevice	\Device\NXTIPSEC
+0x890e1f65e5c0	2023-06-22 14:24:50.000000 	WfpAle	\Device\WfpAle
+0x890e1f65e650	2023-06-22 14:24:50.000000 	BitLocker	\Device\BitLocker
+0x890e1f65ea40	2023-06-22 14:24:50.000000 	WFPDev	\Device\WFP
+0x890e1f65f190	2023-06-22 14:24:50.000000 	IPSECDOSPDevice	\Device\IPSECDOSP
+0x890e1f65f2b0	2023-06-22 14:24:50.000000 	multi(0)disk(0)rdisk(0)partition(2)	\Device\Harddisk0\Partition2
+0x890e1f65f3d0	2023-06-22 14:24:50.000000 	STORAGE#Volume#{fbc3b869-1099-11ee-a2cb-806e6f6e6963}#0000000000100000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}	\Device\HarddiskVolume1
+0x890e1f65f460	2023-06-22 14:24:50.000000 	Harddisk0Partition1	\Device\HarddiskVolume1
+0x890e1f65f580	2023-06-22 14:24:50.000000 	Volume{e8024956-cbf9-4e97-b455-c5285bab82b2}	\Device\HarddiskVolume1
+0x890e1f65f610	2023-06-22 14:24:50.000000 	HarddiskVolume2	\Device\HarddiskVolume2
+0x890e1f65f730	2023-06-22 14:24:50.000000 	UNC	\Device\Mup
+0x890e1f65f850	2023-06-22 14:24:50.000000 	multi(0)disk(0)rdisk(0)	\Device\Harddisk0\Partition0
+0x890e1f65f8e0	2023-06-22 14:24:50.000000 	Partition0	\Device\Harddisk0\DR0
+0x890e1f65f970	2023-06-22 14:24:50.000000 	HarddiskVolume1	\Device\HarddiskVolume1
+0x890e1f65fb20	2023-06-22 14:24:50.000000 	multi(0)disk(0)rdisk(0)partition(4)	\Device\Harddisk0\Partition4
+0x890e1f65fbb0	2023-06-22 14:24:50.000000 	Partition1	\Device\HarddiskVolume1
+0x890e1f65fc40	2023-06-22 14:24:50.000000 	PhysicalDrive0	\Device\Harddisk0\DR0
+0x890e1f65fcd0	2023-06-22 14:24:50.000000 	SCSI#Disk&Ven_VMware_&Prod_VMware_Virtual_S#5&1ec51bf7&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}	\Device\0000006a
+0x890e1f65fdf0	2023-06-22 14:24:50.000000 	multi(0)disk(0)rdisk(0)partition(1)	\Device\Harddisk0\Partition1
+0x890e1f65fe80	2023-06-22 14:24:50.000000 	multi(0)disk(0)rdisk(0)partition(3)	\Device\Harddisk0\Partition3
+0x890e1f65ffa0	2023-06-22 14:24:50.000000 	Disk{893dbfcf-1108-11ee-a2d1-806e6f6e6963}	\Device\Harddisk0\DR0
+0x890e1f66e140	2023-06-22 14:24:50.000000 	C:	\Device\HarddiskVolume4
+0x890e1f66e260	2023-06-22 14:24:50.000000 	STORAGE#Volume#{fbc3b869-1099-11ee-a2cb-806e6f6e6963}#000000001F400000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}	\Device\HarddiskVolume2
+0x890e1f66e2f0	2023-06-22 14:24:50.000000 	Volume{a62310e9-3730-48d7-b141-69dd07af03f6}	\Device\HarddiskVolume2
+0x890e1f66e380	2023-06-22 14:24:50.000000 	Harddisk0Partition2	\Device\HarddiskVolume2
+0x890e1f66e530	2023-06-22 14:24:50.000000 	Partition3	\Device\HarddiskVolume3
+0x890e1f66e650	2023-06-22 14:24:50.000000 	HarddiskVolume3	\Device\HarddiskVolume3
+0x890e1f66e6e0	2023-06-22 14:24:50.000000 	SystemPartition	\Device\HarddiskVolume2
+0x890e1f66e770	2023-06-22 14:24:50.000000 	HarddiskVolume4	\Device\HarddiskVolume4
+0x890e1f66e890	2023-06-22 14:24:50.000000 	Partition2	\Device\HarddiskVolume2
+0x890e1f66e920	2023-06-22 14:24:50.000000 	Volume{f509cd99-1118-492f-b1fe-ede13cae0f5f}	\Device\HarddiskVolume4
+0x890e1f66eb60	2023-06-22 14:24:50.000000 	Partition4	\Device\HarddiskVolume4
+0x890e1f66ebf0	2023-06-22 14:24:50.000000 	SystemPartition	\Device\HarddiskVolume2
+0x890e1f66ed10	2023-06-22 14:24:50.000000 	STORAGE#Volume#{fbc3b869-1099-11ee-a2cb-806e6f6e6963}#0000000025700000#{7f108a28-9833-4b3b-b780-2c6b5fa5c062}	\Device\HarddiskVolume3
+0x890e1f66eda0	2023-06-22 14:24:50.000000 	Harddisk0Partition4	\Device\HarddiskVolume4
+0x890e1f66ee30	2023-06-22 14:24:50.000000 	BootPartition	\Device\HarddiskVolume4
+0x890e1f66ef50	2023-06-22 14:24:50.000000 	STORAGE#Volume#{fbc3b869-1099-11ee-a2cb-806e6f6e6963}#0000000026700000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}	\Device\HarddiskVolume4
+0x890e1f682920	2023-06-22 14:24:50.000000 	DriverData	\SystemRoot\System32\Drivers\DriverData
+0x890e1f683100	2023-06-22 14:25:01.000000 	SWD#PRINTENUM#{191AF061-95A5-4709-BA14-D700EB940B4E}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}	\Device\00000083
+0x890e1f683b20	2023-06-22 14:24:50.000000 	BootDevice	\Device\HarddiskVolume4
+0x890e1f7d43d0	2023-06-22 14:24:50.000000 	Ip	\Device\Tdx
+0x890e1f7d4610	2023-06-22 14:24:50.000000 	Ip6	\Device\Tdx
+0x890e1f7d4970	2023-06-22 14:24:50.000000 	Tcp	\Device\Tcp
+0x890e1f7d4cd0	2023-06-22 14:24:50.000000 	CimfsControl	\Device\cimfs\control
+0x890e1f8973e0	2023-06-22 14:24:50.000000 	Dfs	\Device\DfsClient
+0x890e1f897590	2023-06-22 14:24:50.000000 	gpuenergydrv	\Device\gpuenergydrv
+0x890e1f897a10	2023-06-22 14:24:50.000000 	Nsi	\Device\Nsi
+0x890e1f897ce0	2023-06-22 14:24:50.000000 	fsWrap	\Device\FsWrap
+0x890e1f95a3e0	2023-06-22 14:24:50.000000 	{643d6ab0-af5d-4f0e-bb01-44aa389e8c00}	\Device\NDMP1
+0x890e1f95a590	2023-06-22 14:24:50.000000 	VmGenerationCounter	\Device\VmGenerationCounter
+0x890e1f95ab30	2023-06-22 14:24:50.000000 	CdRom0	\Device\CdRom0
+0x890e1f95c7e0	2023-06-22 14:24:50.000000 	ACPI#PNP0501#1#{86e0d1e0-8089-11d0-9ce4-08003e301f73}	\Device\00000069
+0x890e1f95c990	2023-06-22 14:24:50.000000 	COM1	\Device\Serial0
+0x890e1f95ca20	2023-06-22 14:24:50.000000 	ACPI#PNP0501#1#{4d36e978-e325-11ce-bfc1-08002be10318}	\Device\00000069
+0x890e1f96e0d0	2023-06-22 14:24:50.000000 	KnownDllPath	C:\WINDOWS\System32
+0x890e1f96e180	2023-06-22 14:24:50.000000 	KnownDllPath	C:\WINDOWS\SysWOW64
+0x890e1fa2e0c0	2023-06-22 14:24:50.000000 	Volume{fbc3b87f-1099-11ee-a2cb-806e6f6e6963}	\Device\CdRom0
+0x890e1fa2e150	2023-06-22 14:24:50.000000 	D:	\Device\CdRom0
+0x890e1fa2e270	2023-06-22 14:24:50.000000 	ACPI#GenuineIntel_-_Intel64_Family_6_Model_158_-_Intel(R)_Core(TM)_i7-8700_CPU_@_3.20GHz#_0#{97fadb10-4e33-40ae-359c-8bef029dbdd0}	\Device\00000012
+0x890e1fa2e300	2023-06-22 14:24:50.000000 	ACPI#VMW0003#4&1bd7f811&0#{378de44c-56ef-11d1-bc8c-00a0c91405dd}	\Device\00000066
+0x890e1fa2e390	2023-06-22 14:24:50.000000 	ACPI#GenuineIntel_-_Intel64_Family_6_Model_158_-_Intel(R)_Core(TM)_i7-8700_CPU_@_3.20GHz#_0#{dbe4373d-3c81-40cb-ace4-e0e5d05f0c9f}	\Device\00000012
+0x890e1fa2e420	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{3c0d501a-140b-11d1-b40f-00a0c9223196}	\Device\0000000d
+0x890e1fa2e4b0	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{53172480-4791-11d0-a5d6-28db04c10000}	\Device\0000000d
+0x890e1fa2e540	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{cf1dda2c-9743-11d0-a3ee-00a0c9223196}	\Device\0000000d
+0x890e1fa2e5d0	2023-06-22 14:24:50.000000 	SCSI#CdRom&Ven_NECVMWar&Prod_VMware_SATA_CD01#5&2edf08dd&0&010000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}	\Device\0000006c
+0x890e1fa2e660	2023-06-22 14:24:50.000000 	ACPI#GenuineIntel_-_Intel64_Family_6_Model_158_-_Intel(R)_Core(TM)_i7-8700_CPU_@_3.20GHz#_1#{97fadb10-4e33-40ae-359c-8bef029dbdd0}	\Device\0000001b
+0x890e1fa2e6f0	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{0a4252a0-7e70-11d0-a5d6-28db04c10000}	\Device\0000000d
+0x890e1fa2e780	2023-06-22 14:24:50.000000 	ACPI#PNP0303#4&1bd7f811&0#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}	\Device\00000065
+0x890e1fa2e810	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{ffbb6e3f-ccfe-4d84-90d9-421418b03a8e}	\Device\0000000d
+0x890e1fa2e8a0	2023-06-22 14:24:50.000000 	SCSI#CdRom&Ven_NECVMWar&Prod_VMware_SATA_CD01#5&2edf08dd&0&010000#{53f56308-b6bf-11d0-94f2-00a0c91efb8b}	\Device\0000006c
+0x890e1fa2eae0	2023-06-22 14:24:50.000000 	ACPI#GenuineIntel_-_Intel64_Family_6_Model_158_-_Intel(R)_Core(TM)_i7-8700_CPU_@_3.20GHz#_1#{dbe4373d-3c81-40cb-ace4-e0e5d05f0c9f}	\Device\0000001b
+0x890e1fa2ec00	2023-06-22 14:24:50.000000 	ACPI#VMW0001#7#{3ff2c92b-6598-4e60-8e1c-0ccf4927e319}	\Device\0000005e
+0x890e1fa2f080	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{4747b320-62ce-11cf-a5d6-28db04c10000}	\Device\0000000d
+0x890e1fa2f110	2023-06-22 14:24:50.000000 	ROOT#SYSTEM#0000#{97ebaacb-95bd-11d0-a3ea-00a0c9223196}	\Device\0000000d
+0x890e1fa2f1a0	2023-06-22 14:24:50.000000 	ROOT#UMBUS#0000#{65a9a6cf-64cd-480b-843e-32c86e1ba19f}	\Device\00000008
+0x890e1fa30af0	2023-06-22 14:24:50.000000 	USB#ROOT_HUB#5&2891968b&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}	\Device\USBPDO-1
+0x890e1fa742e0	2023-06-22 14:24:50.000000 	NUL	\Device\Null
+0x890e1fa74440	2023-06-22 14:24:50.000000 	Silos	\Silos
+0x890e1fa74b20	2023-06-22 14:24:50.000000 	CON	\Device\ConDrv\Console
+0x890e1fa74bd0	2023-06-22 14:24:50.000000 	MAILSLOT	\Device\MailSlot
+0x890e1fa74d30	2023-06-22 14:24:50.000000 	CONOUT$	\Device\ConDrv\CurrentOut
+0x890e1fa74e90	2023-06-22 14:24:50.000000 	PIPE	\Device\NamedPipe
+0x890e1fa74f40	2023-06-22 14:24:50.000000 	PRN	\DosDevices\LPT1
+
+0x890e1fa75150	2023-06-22 14:24:50.000000 	CONIN$	\Device\ConDrv\CurrentIn
+0x890e1fa75620	2023-06-22 14:24:50.000000 	AUX	\DosDevices\COM1
+0x890e1fa7c540	2023-06-22 14:24:50.000000 	{643D6AB0-AF5D-4F0E-BB01-44AA389E8C00}	\Device\NDMP1
+0x890e1fa7d230	2023-06-22 14:24:50.000000 	INTELPRO_{643D6AB0-AF5D-4F0E-BB01-44AA389E8C00}	\Device\INTELPRO_{643D6AB0-AF5D-4F0E-BB01-44AA389E8C00}
+0x890e1fa7f2d0	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{65e8773d-8f56-11d0-a3b9-00a0c9223196}	\Device\00000070
+0x890e1fa7f750	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{6994ad04-93ef-11d0-a3cc-00a0c9223196}	\Device\00000070
+0x890e1fa7f990	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{65e8773e-8f56-11d0-a3b9-00a0c9223196}	\Device\00000070
+0x890e1fa7fa20	2023-06-22 14:24:51.000000 	PCI#VEN_8086&DEV_10D3&SUBSYS_07D015AD&REV_00#000C29FFFFA0E90700#{cac88484-7515-4c03-82e6-71a87abac361}	\Device\NTPNP_PCI0041
+0x890e1fa7fcf0	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{dda54a40-1e4c-11d1-a050-405705c10000}	\Device\00000070
+0x890e1fa7fd80	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{86841137-ed8e-4d97-9975-f2ed56b4430e}	\Device\00000070
+0x890e1fa7fe10	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{eb115ffc-10c8-4964-831d-6dcb02e6f23f}	\Device\00000070
+0x890e1fa7ff30	2023-06-22 14:24:51.000000 	HDAUDIO#FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001#5&217be3d6&0&0001#{a17579f0-4fec-4936-9364-249460863be5}	\Device\00000070
+0x890e1fa7ffc0	2023-06-22 14:24:51.000000 	PCI#VEN_8086&DEV_10D3&SUBSYS_07D015AD&REV_00#000C29FFFFA0E90700#{ad498944-762f-11d0-8dcb-00c04fc3358c}	\Device\NTPNP_PCI0041
+0x890e227f7be0	2023-06-22 14:24:51.000000 	USB#VID_0E0F&PID_0003#6&35d1f50b&0&1#{a5dcbf10-6530-11d2-901f-00c04fb951ed}	\Device\USBPDO-2
+0x890e227f88d0	2023-06-22 14:24:51.000000 	HID#VID_0E0F&PID_0003&MI_01#8&16e4a52&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}	\Device\00000077
+0x890e227f8b10	2023-06-22 14:24:51.000000 	HID#VID_0E0F&PID_0003&MI_01#8&16e4a52&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}	\Device\00000077
+0x890e227f8de0	2023-06-22 14:24:51.000000 	HID#VID_0E0F&PID_0003&MI_00#8&1931d697&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}	\Device\00000076
+0x890e227f8e70	2023-06-22 14:24:51.000000 	HID#VID_0E0F&PID_0003&MI_00#8&1931d697&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}	\Device\00000076
+0x890e229172e0	2023-06-22 14:24:51.000000 	Global	\BaseNamedObjects
+0x890e22917c80	2023-06-22 14:24:51.000000 	Local	\Sessions\1\BaseNamedObjects
+0x890e229182b0	2023-06-22 14:24:51.000000 	1	\Sessions\1\BaseNamedObjects
+0x890e229f8ca0	2023-06-22 14:24:51.000000 	Local	\Sessions\1\AppContainerNamedObjects\S-1-15-2-95739096-486727260-2033287795-3853587803-1685597119-444378811-2746676523
+0x890e229f8d50	2023-06-22 14:24:51.000000 	Session	\Sessions\0\AppContainerNamedObjects\S-1-15-2-95739096-486727260-2033287795-3853587803-1685597119-444378811-2746676523
+0x890e229f9170	2023-06-22 14:24:51.000000 	Local	\Sessions\0\AppContainerNamedObjects\S-1-15-2-95739096-486727260-2033287795-3853587803-1685597119-444378811-2746676523
+0x890e229f9220	2023-06-22 14:24:51.000000 	Global	\BaseNamedObjects
+0x890e229f9380	2023-06-22 14:24:51.000000 	Global	\Global??
+0x890e229f9430	2023-06-22 14:24:51.000000 	Global	\Global??
+0x890e229f9590	2023-06-22 14:24:51.000000 	Global	\BaseNamedObjects
+0x890e229f9640	2023-06-22 14:24:51.000000 	Session	\Sessions\1\AppContainerNamedObjects\S-1-15-2-95739096-486727260-2033287795-3853587803-1685597119-444378811-2746676523
+0x890e229fa610	2023-06-22 14:24:52.000000 	Global	\Global??
+0x890e229fb7f0	2023-06-22 14:24:52.000000 	Global	\Global??
+0x890e229fd210	2023-06-22 14:24:52.000000 	Global	\Global??
+0x890e22c1b320	2023-06-22 14:24:51.000000 	USB#VID_0E0F&PID_0002#6&35d1f50b&0&2#{f18a0e88-c30c-11d0-8815-00a0c906bed8}	\Device\USBPDO-3
+0x890e230e8ad0	2023-06-22 14:24:53.000000 	LLDPCTRL	\Device\LLDPCTRL
+0x890e231fa1c0	2023-06-22 14:24:52.000000 	SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}	\Device\0000007c
+0x890e231fab60	2023-06-22 14:24:52.000000 	SWD#MMDEVAPI#{0.0.1.00000000}.{87eceeca-55ab-46d0-a317-771a6c1ba62d}#{2eef81be-33fa-4800-9670-1cd474972c3f}	\Device\0000007b
+0x890e231faf80	2023-06-22 14:24:52.000000 	SWD#MMDEVAPI#{0.0.0.00000000}.{3180c6e2-3ba4-4a77-8b9a-45c2d25959e1}#{e6327cad-dcec-4949-ae8a-991e976a79d2}	\Device\0000007a
+0x890e233cb9b0	2023-06-22 14:24:53.000000 	LanmanRedirector	\Device\Mup\;LanmanRedirector
+0x890e233cbe30	2023-06-22 14:24:53.000000 	MailslotRedirector	\Device\Mup\;MailslotRedirector
+0x890e233cd780	2023-06-22 14:24:53.000000 	MpsDevice	\Device\MPS
+0x890e235ad890	2023-06-22 14:24:53.000000 	vmmemctl	\Device\vmmemctl
+0x890e2387d490	2023-06-22 14:24:54.000000 	vmhgfs	\Device\hgfsInternal
+0x890e2387df40	2023-06-22 14:24:54.000000 	hgfs	\Device\Mup\;hgfs
+0x890e2388a5d0	2023-06-22 14:24:54.000000 	DISPLAY#Default_Monitor#4&427137e&0&UID0#{866519b5-3f07-4c97-b7df-24c5d8a8ccb8}	\Device\0000007e
+0x890e2388a660	2023-06-22 14:24:54.000000 	DISPLAY#Default_Monitor#4&427137e&0&UID0#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}	\Device\0000007e
+0x890e24010f10	2023-06-22 14:24:58.000000 	Global	\Global??
+0x890e24011e30	2023-06-22 14:24:58.000000 	Global	\Global??
+0x890e24a9b5f0	2023-06-22 14:25:01.000000 	SWD#PRINTENUM#{8C6E7BED-7410-4EED-BD2E-F0D6521F1F56}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}	\Device\00000081
+0x890e24a9bee0	2023-06-22 14:25:01.000000 	SWD#PRINTENUM#{DF0F83FE-EAAA-4409-84EE-796A7D9B801B}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}	\Device\00000080
+0x890e24a9cca0	2023-06-22 14:25:02.000000 	Local	\Sessions\1\AppContainerNamedObjects\S-1-15-2-515815643-2845804217-1874292103-218650560-777617685-4287762684-137415000
+0x890e24a9d640	2023-06-22 14:25:02.000000 	Session	\Sessions\1\AppContainerNamedObjects\S-1-15-2-515815643-2845804217-1874292103-218650560-777617685-4287762684-137415000
+0x890e24a9d7a0	2023-06-22 14:25:02.000000 	Global	\BaseNamedObjects
+0x890e24aa35d0	2023-06-22 14:25:02.000000 	Global	\BaseNamedObjects
+0x890e24aa4440	2023-06-22 14:25:02.000000 	Local	\Sessions\1\AppContainerNamedObjects\S-1-15-2-536077884-713174666-1066051701-3219990555-339840825-1966734348-1611281757
+0x890e24aacfd0	2023-06-22 14:25:05.000000 	Local	\Sessions\1\AppContainerNamedObjects\S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497
+0x890e24aad290	2023-06-22 14:25:05.000000 	Session	\Sessions\1\AppContainerNamedObjects\S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497
+0x890e24aad4a0	2023-06-22 14:25:05.000000 	Global	\BaseNamedObjects
+0x890e2557add0	2023-06-22 14:25:10.000000 	Session	\Sessions\1\AppContainerNamedObjects\S-1-15-2-283421221-3183566570-1718213290-751554359-3541592344-2312209569-3374928651
+0x890e27f2f610	2023-06-22 14:26:42.000000 	wdnisdrv	\Device\wdnisdrv
+0x890e27f30c00	2023-06-22 14:32:56.000000 	DumpIt	\Device\DumpIt
+
+Time Stamp: Thu Apr  4 22:32:02 2024
+
+
+******* End of command output ******
+

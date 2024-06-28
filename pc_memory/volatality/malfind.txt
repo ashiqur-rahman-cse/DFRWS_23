@@ -1,0 +1,861 @@
+Time Stamp: Thu Apr  4 23:06:06 2024 
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\programming\files\pythonForVolatality\volatility3-develop\test.raw" windows.malfind.Malfind  
+Please wait, this may take a few minutes. 
+
+Volatility 3 Framework 2.5.0 
+PID Process Start VPN End VPN Tag Protection CommitCharge PrivateMemory File output Hexdump Disasm 
+4132 SearchApp.exe 0x2069ab60000 0x2069ab7ffff VadS PAGE_EXECUTE_READWRITE 5 1 Disabled  
+9d 06 d4 01 37 00 04 d3 ....7... 
+82 53 b6 0a 76 a1 81 d9 .S..v... 
+c1 89 d8 80 c0 fa 24 03 ......$. 
+43 b3 21 db 94 ed d6 2e C.!..... 
+c7 01 22 40 e7 fb 03 90 .."@.... 
+e0 3b 00 88 e2 3b 00 1f .;...;.. 
+01 fa 23 bf 20 f0 7a 24 ..#...z$ 
+32 a0 00 9c 3f 0c 0a 3d 2...?..=  
+0x2069ab60000: popfq  
+4132 SearchApp.exe 0x206ac200000 0x206ac263fff VadS PAGE_EXECUTE_READWRITE 1 1 Disabled  
+3f 44 ff 1f bf 47 1f 7d ?D...G.} 
+44 bb 68 e1 fa 00 1f ff D.h..... 
+09 8f 81 a1 68 9f fa 00 ....h... 
+20 ff 13 73 fc 17 3d 06 ...s..=. 
+3f 00 f6 ff 18 1f 50 d4 ?.....P. 
+ff 13 ff 15 af 68 95 fa .....h.. 
+ff 81 40 20 00 21 ff 09 ..@..!.. 
+81 95 68 83 fa 00 22 ff ..h...".  
+6092 PhoneExperienc 0x7ffb72490000 0x7ffb7252ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb72490000: add byte ptr [rax], al 
+0x7ffb72490002: add byte ptr [rax], al 
+0x7ffb72490004: add byte ptr [rax], al 
+0x7ffb72490006: add byte ptr [rax], al 
+0x7ffb72490008: add byte ptr [rax], al 
+0x7ffb7249000a: add byte ptr [rax], al 
+0x7ffb7249000c: add byte ptr [rax], al 
+0x7ffb7249000e: add byte ptr [rax], al 
+0x7ffb72490010: add byte ptr [rax], al 
+0x7ffb72490012: add byte ptr [rax], al 
+0x7ffb72490014: add byte ptr [rax], al 
+0x7ffb72490016: add byte ptr [rax], al 
+0x7ffb72490018: add byte ptr [rax], al 
+0x7ffb7249001a: add byte ptr [rax], al 
+0x7ffb7249001c: add byte ptr [rax], al 
+0x7ffb7249001e: add byte ptr [rax], al 
+0x7ffb72490020: add byte ptr [rax], al 
+0x7ffb72490022: add byte ptr [rax], al 
+0x7ffb72490024: add byte ptr [rax], al 
+0x7ffb72490026: add byte ptr [rax], al 
+0x7ffb72490028: add byte ptr [rax], al 
+0x7ffb7249002a: add byte ptr [rax], al 
+0x7ffb7249002c: add byte ptr [rax], al 
+0x7ffb7249002e: add byte ptr [rax], al 
+0x7ffb72490030: add byte ptr [rax], al 
+0x7ffb72490032: add byte ptr [rax], al 
+0x7ffb72490034: add byte ptr [rax], al 
+0x7ffb72490036: add byte ptr [rax], al 
+0x7ffb72490038: add byte ptr [rax], al 
+0x7ffb7249003a: add byte ptr [rax], al 
+0x7ffb7249003c: add byte ptr [rax], al 
+0x7ffb7249003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb72480000 0x7ffb7248ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb72480000: add byte ptr [rax], al 
+0x7ffb72480002: add byte ptr [rax], al 
+0x7ffb72480004: add byte ptr [rax], al 
+0x7ffb72480006: add byte ptr [rax], al 
+0x7ffb72480008: add byte ptr [rax], al 
+0x7ffb7248000a: add byte ptr [rax], al 
+0x7ffb7248000c: add byte ptr [rax], al 
+0x7ffb7248000e: add byte ptr [rax], al 
+0x7ffb72480010: add byte ptr [rax], al 
+0x7ffb72480012: add byte ptr [rax], al 
+0x7ffb72480014: add byte ptr [rax], al 
+0x7ffb72480016: add byte ptr [rax], al 
+0x7ffb72480018: add byte ptr [rax], al 
+0x7ffb7248001a: add byte ptr [rax], al 
+0x7ffb7248001c: add byte ptr [rax], al 
+0x7ffb7248001e: add byte ptr [rax], al 
+0x7ffb72480020: add byte ptr [rax], al 
+0x7ffb72480022: add byte ptr [rax], al 
+0x7ffb72480024: add byte ptr [rax], al 
+0x7ffb72480026: add byte ptr [rax], al 
+0x7ffb72480028: add byte ptr [rax], al 
+0x7ffb7248002a: add byte ptr [rax], al 
+0x7ffb7248002c: add byte ptr [rax], al 
+0x7ffb7248002e: add byte ptr [rax], al 
+0x7ffb72480030: add byte ptr [rax], al 
+0x7ffb72480032: add byte ptr [rax], al 
+0x7ffb72480034: add byte ptr [rax], al 
+0x7ffb72480036: add byte ptr [rax], al 
+0x7ffb72480038: add byte ptr [rax], al 
+0x7ffb7248003a: add byte ptr [rax], al 
+0x7ffb7248003c: add byte ptr [rax], al 
+0x7ffb7248003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb72640000 0x7ffb726bffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb72640000: add byte ptr [rax], al 
+0x7ffb72640002: add byte ptr [rax], al 
+0x7ffb72640004: add byte ptr [rax], al 
+0x7ffb72640006: add byte ptr [rax], al 
+0x7ffb72640008: add byte ptr [rax], al 
+0x7ffb7264000a: add byte ptr [rax], al 
+0x7ffb7264000c: add byte ptr [rax], al 
+0x7ffb7264000e: add byte ptr [rax], al 
+0x7ffb72640010: add byte ptr [rax], al 
+0x7ffb72640012: add byte ptr [rax], al 
+0x7ffb72640014: add byte ptr [rax], al 
+0x7ffb72640016: add byte ptr [rax], al 
+0x7ffb72640018: add byte ptr [rax], al 
+0x7ffb7264001a: add byte ptr [rax], al 
+0x7ffb7264001c: add byte ptr [rax], al 
+0x7ffb7264001e: add byte ptr [rax], al 
+0x7ffb72640020: add byte ptr [rax], al 
+0x7ffb72640022: add byte ptr [rax], al 
+0x7ffb72640024: add byte ptr [rax], al 
+0x7ffb72640026: add byte ptr [rax], al 
+0x7ffb72640028: add byte ptr [rax], al 
+0x7ffb7264002a: add byte ptr [rax], al 
+0x7ffb7264002c: add byte ptr [rax], al 
+0x7ffb7264002e: add byte ptr [rax], al 
+0x7ffb72640030: add byte ptr [rax], al 
+0x7ffb72640032: add byte ptr [rax], al 
+0x7ffb72640034: add byte ptr [rax], al 
+0x7ffb72640036: add byte ptr [rax], al 
+0x7ffb72640038: add byte ptr [rax], al 
+0x7ffb7264003a: add byte ptr [rax], al 
+0x7ffb7264003c: add byte ptr [rax], al 
+0x7ffb7264003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb73540000 0x7ffb7354ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb73540000: add byte ptr [rax], al 
+0x7ffb73540002: add byte ptr [rax], al 
+0x7ffb73540004: add byte ptr [rax], al 
+0x7ffb73540006: add byte ptr [rax], al 
+0x7ffb73540008: add byte ptr [rax], al 
+0x7ffb7354000a: add byte ptr [rax], al 
+0x7ffb7354000c: add byte ptr [rax], al 
+0x7ffb7354000e: add byte ptr [rax], al 
+0x7ffb73540010: add byte ptr [rax], al 
+0x7ffb73540012: add byte ptr [rax], al 
+0x7ffb73540014: add byte ptr [rax], al 
+0x7ffb73540016: add byte ptr [rax], al 
+0x7ffb73540018: add byte ptr [rax], al 
+0x7ffb7354001a: add byte ptr [rax], al 
+0x7ffb7354001c: add byte ptr [rax], al 
+0x7ffb7354001e: add byte ptr [rax], al 
+0x7ffb73540020: add byte ptr [rax], al 
+0x7ffb73540022: add byte ptr [rax], al 
+0x7ffb73540024: add byte ptr [rax], al 
+0x7ffb73540026: add byte ptr [rax], al 
+0x7ffb73540028: add byte ptr [rax], al 
+0x7ffb7354002a: add byte ptr [rax], al 
+0x7ffb7354002c: add byte ptr [rax], al 
+0x7ffb7354002e: add byte ptr [rax], al 
+0x7ffb73540030: add byte ptr [rax], al 
+0x7ffb73540032: add byte ptr [rax], al 
+0x7ffb73540034: add byte ptr [rax], al 
+0x7ffb73540036: add byte ptr [rax], al 
+0x7ffb73540038: add byte ptr [rax], al 
+0x7ffb7354003a: add byte ptr [rax], al 
+0x7ffb7354003c: add byte ptr [rax], al 
+0x7ffb7354003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb738b0000 0x7ffb738bffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb738b0000: add byte ptr [rax], al 
+0x7ffb738b0002: add byte ptr [rax], al 
+0x7ffb738b0004: add byte ptr [rax], al 
+0x7ffb738b0006: add byte ptr [rax], al 
+0x7ffb738b0008: add byte ptr [rax], al 
+0x7ffb738b000a: add byte ptr [rax], al 
+0x7ffb738b000c: add byte ptr [rax], al 
+0x7ffb738b000e: add byte ptr [rax], al 
+0x7ffb738b0010: add byte ptr [rax], al 
+0x7ffb738b0012: add byte ptr [rax], al 
+0x7ffb738b0014: add byte ptr [rax], al 
+0x7ffb738b0016: add byte ptr [rax], al 
+0x7ffb738b0018: add byte ptr [rax], al 
+0x7ffb738b001a: add byte ptr [rax], al 
+0x7ffb738b001c: add byte ptr [rax], al 
+0x7ffb738b001e: add byte ptr [rax], al 
+0x7ffb738b0020: add byte ptr [rax], al 
+0x7ffb738b0022: add byte ptr [rax], al 
+0x7ffb738b0024: add byte ptr [rax], al 
+0x7ffb738b0026: add byte ptr [rax], al 
+0x7ffb738b0028: add byte ptr [rax], al 
+0x7ffb738b002a: add byte ptr [rax], al 
+0x7ffb738b002c: add byte ptr [rax], al 
+0x7ffb738b002e: add byte ptr [rax], al 
+0x7ffb738b0030: add byte ptr [rax], al 
+0x7ffb738b0032: add byte ptr [rax], al 
+0x7ffb738b0034: add byte ptr [rax], al 
+0x7ffb738b0036: add byte ptr [rax], al 
+0x7ffb738b0038: add byte ptr [rax], al 
+0x7ffb738b003a: add byte ptr [rax], al 
+0x7ffb738b003c: add byte ptr [rax], al 
+0x7ffb738b003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb73610000 0x7ffb7361ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+48 63 5f 73 fb 7f 00 00 Hc_s.... 
+38 c7 f4 72 fb 7f 00 00 8..r.... 
+20 25 10 db 47 02 00 00 .%..G... 
+b8 d3 48 72 fb 7f 00 00 ..Hr.... 
+00 00 00 00 49 ba 00 00 ....I... 
+61 73 fb 7f 00 00 48 b8 as....H. 
+90 fc 15 d2 fb 7f 00 00 ........ 
+48 ff e0 00 00 00 00 00 H.......  
+0x7ffb73610000: movsxd rbx, dword ptr [rdi + 0x73] 
+0x7ffb73610004: sti  
+0x7ffb73610005: jg 0x7ffb73610007 
+0x7ffb73610007: add byte ptr [rax], bh 
+6092 PhoneExperienc 0x7ffb73770000 0x7ffb7377ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb73770000: add byte ptr [rax], al 
+0x7ffb73770002: add byte ptr [rax], al 
+0x7ffb73770004: add byte ptr [rax], al 
+0x7ffb73770006: add byte ptr [rax], al 
+0x7ffb73770008: add byte ptr [rax], al 
+0x7ffb7377000a: add byte ptr [rax], al 
+0x7ffb7377000c: add byte ptr [rax], al 
+0x7ffb7377000e: add byte ptr [rax], al 
+0x7ffb73770010: add byte ptr [rax], al 
+0x7ffb73770012: add byte ptr [rax], al 
+0x7ffb73770014: add byte ptr [rax], al 
+0x7ffb73770016: add byte ptr [rax], al 
+0x7ffb73770018: add byte ptr [rax], al 
+0x7ffb7377001a: add byte ptr [rax], al 
+0x7ffb7377001c: add byte ptr [rax], al 
+0x7ffb7377001e: add byte ptr [rax], al 
+0x7ffb73770020: add byte ptr [rax], al 
+0x7ffb73770022: add byte ptr [rax], al 
+0x7ffb73770024: add byte ptr [rax], al 
+0x7ffb73770026: add byte ptr [rax], al 
+0x7ffb73770028: add byte ptr [rax], al 
+0x7ffb7377002a: add byte ptr [rax], al 
+0x7ffb7377002c: add byte ptr [rax], al 
+0x7ffb7377002e: add byte ptr [rax], al 
+0x7ffb73770030: add byte ptr [rax], al 
+0x7ffb73770032: add byte ptr [rax], al 
+0x7ffb73770034: add byte ptr [rax], al 
+0x7ffb73770036: add byte ptr [rax], al 
+0x7ffb73770038: add byte ptr [rax], al 
+0x7ffb7377003a: add byte ptr [rax], al 
+0x7ffb7377003c: add byte ptr [rax], al 
+0x7ffb7377003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb737b0000 0x7ffb737bffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb737b0000: add byte ptr [rax], al 
+0x7ffb737b0002: add byte ptr [rax], al 
+0x7ffb737b0004: add byte ptr [rax], al 
+0x7ffb737b0006: add byte ptr [rax], al 
+0x7ffb737b0008: add byte ptr [rax], al 
+0x7ffb737b000a: add byte ptr [rax], al 
+0x7ffb737b000c: add byte ptr [rax], al 
+0x7ffb737b000e: add byte ptr [rax], al 
+0x7ffb737b0010: add byte ptr [rax], al 
+0x7ffb737b0012: add byte ptr [rax], al 
+0x7ffb737b0014: add byte ptr [rax], al 
+0x7ffb737b0016: add byte ptr [rax], al 
+0x7ffb737b0018: add byte ptr [rax], al 
+0x7ffb737b001a: add byte ptr [rax], al 
+0x7ffb737b001c: add byte ptr [rax], al 
+0x7ffb737b001e: add byte ptr [rax], al 
+0x7ffb737b0020: add byte ptr [rax], al 
+0x7ffb737b0022: add byte ptr [rax], al 
+0x7ffb737b0024: add byte ptr [rax], al 
+0x7ffb737b0026: add byte ptr [rax], al 
+0x7ffb737b0028: add byte ptr [rax], al 
+0x7ffb737b002a: add byte ptr [rax], al 
+0x7ffb737b002c: add byte ptr [rax], al 
+0x7ffb737b002e: add byte ptr [rax], al 
+0x7ffb737b0030: add byte ptr [rax], al 
+0x7ffb737b0032: add byte ptr [rax], al 
+0x7ffb737b0034: add byte ptr [rax], al 
+0x7ffb737b0036: add byte ptr [rax], al 
+0x7ffb737b0038: add byte ptr [rax], al 
+0x7ffb737b003a: add byte ptr [rax], al 
+0x7ffb737b003c: add byte ptr [rax], al 
+0x7ffb737b003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb73860000 0x7ffb7386ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+15 fb 0f 00 00 ff 25 fd ......%. 
+0f 00 00 90 66 66 66 66 ....ffff 
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+15 fb 0f 00 00 ff 25 fd ......%. 
+0f 00 00 90 66 66 66 66 ....ffff 
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+15 fb 0f 00 00 ff 25 fd ......%.  
+0x7ffb73860000: jmp qword ptr [rip + 0xffa] 
+0x7ffb73860006: mov r10, qword ptr [rip + 0xffb] 
+0x7ffb7386000d: jmp qword ptr [rip + 0xffd] 
+0x7ffb73860013: nop  
+0x7ffb73860014: jmp qword ptr [rip + 0xffa] 
+0x7ffb7386001e: mov r10, qword ptr [rip + 0xffb] 
+0x7ffb73860025: jmp qword ptr [rip + 0xffd] 
+0x7ffb7386002b: nop  
+0x7ffb7386002c: jmp qword ptr [rip + 0xffa] 
+0x7ffb73860036: mov r10, qword ptr [rip + 0xffb] 
+6092 PhoneExperienc 0x7ffb73850000 0x7ffb7385ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb73850000: add byte ptr [rax], al 
+0x7ffb73850002: add byte ptr [rax], al 
+0x7ffb73850004: add byte ptr [rax], al 
+0x7ffb73850006: add byte ptr [rax], al 
+0x7ffb73850008: add byte ptr [rax], al 
+0x7ffb7385000a: add byte ptr [rax], al 
+0x7ffb7385000c: add byte ptr [rax], al 
+0x7ffb7385000e: add byte ptr [rax], al 
+0x7ffb73850010: add byte ptr [rax], al 
+0x7ffb73850012: add byte ptr [rax], al 
+0x7ffb73850014: add byte ptr [rax], al 
+0x7ffb73850016: add byte ptr [rax], al 
+0x7ffb73850018: add byte ptr [rax], al 
+0x7ffb7385001a: add byte ptr [rax], al 
+0x7ffb7385001c: add byte ptr [rax], al 
+0x7ffb7385001e: add byte ptr [rax], al 
+0x7ffb73850020: add byte ptr [rax], al 
+0x7ffb73850022: add byte ptr [rax], al 
+0x7ffb73850024: add byte ptr [rax], al 
+0x7ffb73850026: add byte ptr [rax], al 
+0x7ffb73850028: add byte ptr [rax], al 
+0x7ffb7385002a: add byte ptr [rax], al 
+0x7ffb7385002c: add byte ptr [rax], al 
+0x7ffb7385002e: add byte ptr [rax], al 
+0x7ffb73850030: add byte ptr [rax], al 
+0x7ffb73850032: add byte ptr [rax], al 
+0x7ffb73850034: add byte ptr [rax], al 
+0x7ffb73850036: add byte ptr [rax], al 
+0x7ffb73850038: add byte ptr [rax], al 
+0x7ffb7385003a: add byte ptr [rax], al 
+0x7ffb7385003c: add byte ptr [rax], al 
+0x7ffb7385003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb73870000 0x7ffb7387ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 03 00 d3 03 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+f0 fa 85 73 fb 7f 00 00 ...s.... 
+88 02 87 73 fb 7f 00 00 ...s.... 
+4f 01 00 00 00 00 00 00 O....... 
+80 61 f6 76 88 02 00 00 .a.v.... 
+00 00 00 00 00 00 00 00 ........ 
+80 61 f6 76 88 02 00 00 .a.v....  
+0x7ffb73870000: add byte ptr [rax], al 
+0x7ffb73870002: add eax, dword ptr [rax] 
+0x7ffb73870004: rol dword ptr [rbx], cl 
+0x7ffb73870006: add byte ptr [rax], al 
+0x7ffb73870008: add byte ptr [rax], al 
+0x7ffb7387000a: add byte ptr [rax], al 
+0x7ffb7387000c: add byte ptr [rax], al 
+0x7ffb7387000e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb738a0000 0x7ffb738affff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb738a0000: add byte ptr [rax], al 
+0x7ffb738a0002: add byte ptr [rax], al 
+0x7ffb738a0004: add byte ptr [rax], al 
+0x7ffb738a0006: add byte ptr [rax], al 
+0x7ffb738a0008: add byte ptr [rax], al 
+0x7ffb738a000a: add byte ptr [rax], al 
+0x7ffb738a000c: add byte ptr [rax], al 
+0x7ffb738a000e: add byte ptr [rax], al 
+0x7ffb738a0010: add byte ptr [rax], al 
+0x7ffb738a0012: add byte ptr [rax], al 
+0x7ffb738a0014: add byte ptr [rax], al 
+0x7ffb738a0016: add byte ptr [rax], al 
+0x7ffb738a0018: add byte ptr [rax], al 
+0x7ffb738a001a: add byte ptr [rax], al 
+0x7ffb738a001c: add byte ptr [rax], al 
+0x7ffb738a001e: add byte ptr [rax], al 
+0x7ffb738a0020: add byte ptr [rax], al 
+0x7ffb738a0022: add byte ptr [rax], al 
+0x7ffb738a0024: add byte ptr [rax], al 
+0x7ffb738a0026: add byte ptr [rax], al 
+0x7ffb738a0028: add byte ptr [rax], al 
+0x7ffb738a002a: add byte ptr [rax], al 
+0x7ffb738a002c: add byte ptr [rax], al 
+0x7ffb738a002e: add byte ptr [rax], al 
+0x7ffb738a0030: add byte ptr [rax], al 
+0x7ffb738a0032: add byte ptr [rax], al 
+0x7ffb738a0034: add byte ptr [rax], al 
+0x7ffb738a0036: add byte ptr [rax], al 
+0x7ffb738a0038: add byte ptr [rax], al 
+0x7ffb738a003a: add byte ptr [rax], al 
+0x7ffb738a003c: add byte ptr [rax], al 
+0x7ffb738a003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb738d0000 0x7ffb738dffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb738d0000: add byte ptr [rax], al 
+0x7ffb738d0002: add byte ptr [rax], al 
+0x7ffb738d0004: add byte ptr [rax], al 
+0x7ffb738d0006: add byte ptr [rax], al 
+0x7ffb738d0008: add byte ptr [rax], al 
+0x7ffb738d000a: add byte ptr [rax], al 
+0x7ffb738d000c: add byte ptr [rax], al 
+0x7ffb738d000e: add byte ptr [rax], al 
+0x7ffb738d0010: add byte ptr [rax], al 
+0x7ffb738d0012: add byte ptr [rax], al 
+0x7ffb738d0014: add byte ptr [rax], al 
+0x7ffb738d0016: add byte ptr [rax], al 
+0x7ffb738d0018: add byte ptr [rax], al 
+0x7ffb738d001a: add byte ptr [rax], al 
+0x7ffb738d001c: add byte ptr [rax], al 
+0x7ffb738d001e: add byte ptr [rax], al 
+0x7ffb738d0020: add byte ptr [rax], al 
+0x7ffb738d0022: add byte ptr [rax], al 
+0x7ffb738d0024: add byte ptr [rax], al 
+0x7ffb738d0026: add byte ptr [rax], al 
+0x7ffb738d0028: add byte ptr [rax], al 
+0x7ffb738d002a: add byte ptr [rax], al 
+0x7ffb738d002c: add byte ptr [rax], al 
+0x7ffb738d002e: add byte ptr [rax], al 
+0x7ffb738d0030: add byte ptr [rax], al 
+0x7ffb738d0032: add byte ptr [rax], al 
+0x7ffb738d0034: add byte ptr [rax], al 
+0x7ffb738d0036: add byte ptr [rax], al 
+0x7ffb738d0038: add byte ptr [rax], al 
+0x7ffb738d003a: add byte ptr [rax], al 
+0x7ffb738d003c: add byte ptr [rax], al 
+0x7ffb738d003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb73900000 0x7ffb7390ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X... 
+00 00 00 00 58 00 00 00 ....X...  
+0x7ffb73900000: add byte ptr [rax], al 
+0x7ffb73900002: add byte ptr [rax], al 
+0x7ffb73900004: pop rax 
+0x7ffb73900005: add byte ptr [rax], al 
+0x7ffb73900007: add byte ptr [rax], al 
+0x7ffb73900009: add byte ptr [rax], al 
+0x7ffb7390000b: add byte ptr [rax], bl 
+0x7ffb7390000e: add byte ptr [rax], al 
+0x7ffb73900010: add byte ptr [rax], al 
+0x7ffb73900012: add byte ptr [rax], al 
+0x7ffb73900014: pop rax 
+0x7ffb73900015: add byte ptr [rax], al 
+0x7ffb73900017: add byte ptr [rax], al 
+0x7ffb73900019: add byte ptr [rax], al 
+0x7ffb7390001b: add byte ptr [rax], bl 
+0x7ffb7390001e: add byte ptr [rax], al 
+0x7ffb73900020: add byte ptr [rax], al 
+0x7ffb73900022: add byte ptr [rax], al 
+0x7ffb73900024: pop rax 
+0x7ffb73900025: add byte ptr [rax], al 
+0x7ffb73900027: add byte ptr [rax], al 
+0x7ffb73900029: add byte ptr [rax], al 
+0x7ffb7390002b: add byte ptr [rax], bl 
+0x7ffb7390002e: add byte ptr [rax], al 
+0x7ffb73900030: add byte ptr [rax], al 
+0x7ffb73900032: add byte ptr [rax], al 
+0x7ffb73900034: pop rax 
+0x7ffb73900035: add byte ptr [rax], al 
+0x7ffb73900037: add byte ptr [rax], al 
+0x7ffb73900039: add byte ptr [rax], al 
+0x7ffb7390003b: add byte ptr [rax], bl 
+0x7ffb7390003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb739b0000 0x7ffb73a2ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb739b0000: add byte ptr [rax], al 
+0x7ffb739b0002: add byte ptr [rax], al 
+0x7ffb739b0004: add byte ptr [rax], al 
+0x7ffb739b0006: add byte ptr [rax], al 
+0x7ffb739b0008: add byte ptr [rax], al 
+0x7ffb739b000a: add byte ptr [rax], al 
+0x7ffb739b000c: add byte ptr [rax], al 
+0x7ffb739b000e: add byte ptr [rax], al 
+0x7ffb739b0010: add byte ptr [rax], al 
+0x7ffb739b0012: add byte ptr [rax], al 
+0x7ffb739b0014: add byte ptr [rax], al 
+0x7ffb739b0016: add byte ptr [rax], al 
+0x7ffb739b0018: add byte ptr [rax], al 
+0x7ffb739b001a: add byte ptr [rax], al 
+0x7ffb739b001c: add byte ptr [rax], al 
+0x7ffb739b001e: add byte ptr [rax], al 
+0x7ffb739b0020: add byte ptr [rax], al 
+0x7ffb739b0022: add byte ptr [rax], al 
+0x7ffb739b0024: add byte ptr [rax], al 
+0x7ffb739b0026: add byte ptr [rax], al 
+0x7ffb739b0028: add byte ptr [rax], al 
+0x7ffb739b002a: add byte ptr [rax], al 
+0x7ffb739b002c: add byte ptr [rax], al 
+0x7ffb739b002e: add byte ptr [rax], al 
+0x7ffb739b0030: add byte ptr [rax], al 
+0x7ffb739b0032: add byte ptr [rax], al 
+0x7ffb739b0034: add byte ptr [rax], al 
+0x7ffb739b0036: add byte ptr [rax], al 
+0x7ffb739b0038: add byte ptr [rax], al 
+0x7ffb739b003a: add byte ptr [rax], al 
+0x7ffb739b003c: add byte ptr [rax], al 
+0x7ffb739b003e: add byte ptr [rax], al 
+6092 PhoneExperienc 0x7ffb73990000 0x7ffb7399ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+15 fb 0f 00 00 ff 25 fd ......%. 
+0f 00 00 90 66 66 66 66 ....ffff 
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+15 fb 0f 00 00 ff 25 fd ......%. 
+0f 00 00 90 66 66 66 66 ....ffff 
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+15 fb 0f 00 00 ff 25 fd ......%.  
+0x7ffb73990000: jmp qword ptr [rip + 0xffa] 
+0x7ffb73990006: mov r10, qword ptr [rip + 0xffb] 
+0x7ffb7399000d: jmp qword ptr [rip + 0xffd] 
+0x7ffb73990013: nop  
+0x7ffb73990014: jmp qword ptr [rip + 0xffa] 
+0x7ffb7399001e: mov r10, qword ptr [rip + 0xffb] 
+0x7ffb73990025: jmp qword ptr [rip + 0xffd] 
+0x7ffb7399002b: nop  
+0x7ffb7399002c: jmp qword ptr [rip + 0xffa] 
+0x7ffb73990036: mov r10, qword ptr [rip + 0xffb] 
+6092 PhoneExperienc 0x7ffb739a0000 0x7ffb739affff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+48 8b 05 f9 0f 00 00 66 H......f 
+ff 08 74 06 ff 25 f6 0f ..t..%.. 
+00 00 ff 25 f8 0f 00 00 ...%.... 
+48 8b 05 f9 0f 00 00 66 H......f 
+ff 08 74 06 ff 25 f6 0f ..t..%.. 
+00 00 ff 25 f8 0f 00 00 ...%.... 
+48 8b 05 f9 0f 00 00 66 H......f 
+ff 08 74 06 ff 25 f6 0f ..t..%..  
+0x7ffb739a0000: mov rax, qword ptr [rip + 0xff9] 
+0x7ffb739a0007: dec word ptr [rax] 
+0x7ffb739a000a: je 0x7ffb739a0012 
+0x7ffb739a000c: jmp qword ptr [rip + 0xff6] 
+0x7ffb739a0012: jmp qword ptr [rip + 0xff8] 
+0x7ffb739a0018: mov rax, qword ptr [rip + 0xff9] 
+0x7ffb739a001f: dec word ptr [rax] 
+0x7ffb739a0022: je 0x7ffb739a002a 
+0x7ffb739a0024: jmp qword ptr [rip + 0xff6] 
+0x7ffb739a002a: jmp qword ptr [rip + 0xff8] 
+0x7ffb739a0030: mov rax, qword ptr [rip + 0xff9] 
+0x7ffb739a0037: dec word ptr [rax] 
+0x7ffb739a003a: je 0x7ffb739a0042 
+6092 PhoneExperienc 0x7ffb73a90000 0x7ffb73a9ffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+4c 8b 15 f9 0f 00 00 ff L....... 
+25 fb 0f 00 00 90 66 90 %.....f. 
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+4c 8b 15 f9 0f 00 00 ff L....... 
+25 fb 0f 00 00 90 66 90 %.....f. 
+ff 25 fa 0f 00 00 4c 8b .%....L. 
+4c 8b 15 f9 0f 00 00 ff L....... 
+25 fb 0f 00 00 90 66 90 %.....f.  
+0x7ffb73a90000: mov r10, qword ptr [rip + 0xff9] 
+0x7ffb73a90007: jmp qword ptr [rip + 0xffb] 
+0x7ffb73a9000d: nop  
+0x7ffb73a9000e: nop  
+0x7ffb73a90010: jmp qword ptr [rip + 0xffa] 
+0x7ffb73a90016: mov r9, qword ptr [rbx + rcx*4 + 0x15] 
+0x7ffb73a9001b: stc  
+0x7ffb73a9001c: sldt word ptr [rax] 
+0x7ffb73a9001f: jmp qword ptr [rip + 0xffb] 
+0x7ffb73a90025: nop  
+0x7ffb73a90026: nop  
+0x7ffb73a90028: jmp qword ptr [rip + 0xffa] 
+0x7ffb73a9002e: mov r9, qword ptr [rbx + rcx*4 + 0x15] 
+0x7ffb73a90033: stc  
+0x7ffb73a90034: sldt word ptr [rax] 
+0x7ffb73a90037: jmp qword ptr [rip + 0xffb] 
+0x7ffb73a9003d: nop  
+0x7ffb73a9003e: nop  
+6092 PhoneExperienc 0x7ffb73bf0000 0x7ffb73bfffff Vad  PAGE_EXECUTE_READWRITE 0 0 Disabled  
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........ 
+00 00 00 00 00 00 00 00 ........  
+0x7ffb73bf0000: add byte ptr [rax], al 
+0x7ffb73bf0002: add byte ptr [rax], al 
+0x7ffb73bf0004: add byte ptr [rax], al 
+0x7ffb73bf0006: add byte ptr [rax], al 
+0x7ffb73bf0008: add byte ptr [rax], al 
+0x7ffb73bf000a: add byte ptr [rax], al 
+0x7ffb73bf000c: add byte ptr [rax], al 
+0x7ffb73bf000e: add byte ptr [rax], al 
+0x7ffb73bf0010: add byte ptr [rax], al 
+0x7ffb73bf0012: add byte ptr [rax], al 
+0x7ffb73bf0014: add byte ptr [rax], al 
+0x7ffb73bf0016: add byte ptr [rax], al 
+0x7ffb73bf0018: add byte ptr [rax], al 
+0x7ffb73bf001a: add byte ptr [rax], al 
+0x7ffb73bf001c: add byte ptr [rax], al 
+0x7ffb73bf001e: add byte ptr [rax], al 
+0x7ffb73bf0020: add byte ptr [rax], al 
+0x7ffb73bf0022: add byte ptr [rax], al 
+0x7ffb73bf0024: add byte ptr [rax], al 
+0x7ffb73bf0026: add byte ptr [rax], al 
+0x7ffb73bf0028: add byte ptr [rax], al 
+0x7ffb73bf002a: add byte ptr [rax], al 
+0x7ffb73bf002c: add byte ptr [rax], al 
+0x7ffb73bf002e: add byte ptr [rax], al 
+0x7ffb73bf0030: add byte ptr [rax], al 
+0x7ffb73bf0032: add byte ptr [rax], al 
+0x7ffb73bf0034: add byte ptr [rax], al 
+0x7ffb73bf0036: add byte ptr [rax], al 
+0x7ffb73bf0038: add byte ptr [rax], al 
+0x7ffb73bf003a: add byte ptr [rax], al 
+0x7ffb73bf003c: add byte ptr [rax], al 
+0x7ffb73bf003e: add byte ptr [rax], al 
+5012 MsMpEng.exe 0x217b70e0000 0x217b71ecfff VadS PAGE_EXECUTE_READWRITE 269 1 Disabled  
+56 57 53 55 41 54 41 55 VWSUATAU 
+41 56 41 57 48 83 ec 28 AVAWH..( 
+4c 8d 3c 24 48 8b e9 48 L.<$H..H 
+8d b1 98 38 00 00 ff e2 ...8.... 
+49 8d 67 28 41 5f 41 5e I.g(A_A^ 
+41 5d 41 5c 5d 5b 5f 5e A]A\][_^ 
+c3 00 00 40 00 80 00 00 ...@.... 
+00 48 89 e9 48 b8 e0 81 .H..H...  
+0x217b70e0000: push rsi 
+0x217b70e0001: push rdi 
+0x217b70e0002: push rbx 
+0x217b70e0003: push rbp 
+0x217b70e0004: push r12 
+0x217b70e0006: push r13 
+0x217b70e0008: push r14 
+0x217b70e000a: push r15 
+0x217b70e000c: sub rsp, 0x28 
+0x217b70e0010: lea r15, [rsp] 
+0x217b70e0014: mov rbp, rcx 
+0x217b70e0017: lea rsi, [rcx + 0x3898] 
+0x217b70e001e: jmp rdx 
+0x217b70e0020: lea rsp, [r15 + 0x28] 
+0x217b70e0024: pop r15 
+0x217b70e0026: pop r14 
+0x217b70e0028: pop r13 
+0x217b70e002a: pop r12 
+0x217b70e002c: pop rbp 
+0x217b70e002d: pop rbx 
+0x217b70e002e: pop rdi 
+0x217b70e002f: pop rsi 
+0x217b70e0030: ret  
+0x217b70e0031: add byte ptr [rax], al 
+0x217b70e0033: add byte ptr [rax + 0x48000000], al 
+0x217b70e003a: mov ecx, ebp 
+5012 MsMpEng.exe 0x217bae50000 0x217baf4ffff VadS PAGE_EXECUTE_READWRITE 256 1 Disabled  
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc 08 00 42 00 00 00 00 ...B.... 
+05 48 8b 45 20 48 89 c2 .H.E.H..  
+0x217bae50000: int3  
+0x217bae50001: int3  
+0x217bae50002: int3  
+0x217bae50003: int3  
+0x217bae50004: int3  
+0x217bae50005: int3  
+0x217bae50006: int3  
+0x217bae50007: int3  
+0x217bae50008: int3  
+0x217bae50009: int3  
+0x217bae5000a: int3  
+0x217bae5000b: int3  
+0x217bae5000c: int3  
+0x217bae5000d: int3  
+0x217bae5000e: int3  
+0x217bae5000f: int3  
+0x217bae50010: int3  
+0x217bae50011: int3  
+0x217bae50012: int3  
+0x217bae50013: int3  
+0x217bae50014: int3  
+0x217bae50015: int3  
+0x217bae50016: int3  
+0x217bae50017: int3  
+0x217bae50018: int3  
+0x217bae50019: int3  
+0x217bae5001a: int3  
+0x217bae5001b: int3  
+0x217bae5001c: int3  
+0x217bae5001d: int3  
+0x217bae5001e: int3  
+0x217bae5001f: int3  
+0x217bae50020: int3  
+0x217bae50021: int3  
+0x217bae50022: int3  
+0x217bae50023: int3  
+0x217bae50024: int3  
+0x217bae50025: int3  
+0x217bae50026: int3  
+0x217bae50027: int3  
+0x217bae50028: int3  
+0x217bae50029: int3  
+0x217bae5002a: int3  
+0x217bae5002b: int3  
+0x217bae5002c: int3  
+0x217bae5002d: int3  
+0x217bae5002e: int3  
+0x217bae5002f: int3  
+0x217bae50030: int3  
+0x217bae50031: or byte ptr [rax], al 
+0x217bae50033: add byte ptr [rax], al 
+0x217bae50036: add byte ptr [rax], al 
+0x217bae50038: add eax, 0x20458b48 
+0x217bae5003d: mov rdx, rax 
+5012 MsMpEng.exe 0x217bc330000 0x217bc52ffff VadS PAGE_EXECUTE_READWRITE 512 1 Disabled  
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc cc cc cc cc cc cc cc ........ 
+cc 0a 00 36 00 0a 00 01 ...6.... 
+05 48 8b 55 28 48 8b 8d .H.U(H..  
+0x217bc330000: int3  
+0x217bc330001: int3  
+0x217bc330002: int3  
+0x217bc330003: int3  
+0x217bc330004: int3  
+0x217bc330005: int3  
+0x217bc330006: int3  
+0x217bc330007: int3  
+0x217bc330008: int3  
+0x217bc330009: int3  
+0x217bc33000a: int3  
+0x217bc33000b: int3  
+0x217bc33000c: int3  
+0x217bc33000d: int3  
+0x217bc33000e: int3  
+0x217bc33000f: int3  
+0x217bc330010: int3  
+0x217bc330011: int3  
+0x217bc330012: int3  
+0x217bc330013: int3  
+0x217bc330014: int3  
+0x217bc330015: int3  
+0x217bc330016: int3  
+0x217bc330017: int3  
+0x217bc330018: int3  
+0x217bc330019: int3  
+0x217bc33001a: int3  
+0x217bc33001b: int3  
+0x217bc33001c: int3  
+0x217bc33001d: int3  
+0x217bc33001e: int3  
+0x217bc33001f: int3  
+0x217bc330020: int3  
+0x217bc330021: int3  
+0x217bc330022: int3  
+0x217bc330023: int3  
+0x217bc330024: int3  
+0x217bc330025: int3  
+0x217bc330026: int3  
+0x217bc330027: int3  
+0x217bc330028: int3  
+0x217bc330029: int3  
+0x217bc33002a: int3  
+0x217bc33002b: int3  
+0x217bc33002c: int3  
+0x217bc33002d: int3  
+0x217bc33002e: int3  
+0x217bc33002f: int3  
+0x217bc330030: int3  
+0x217bc330031: or al, byte ptr [rax] 
+0x217bc330033: add byte ptr ss:[rdx], cl 
+0x217bc330036: add byte ptr [rcx], al 
+0x217bc330038: add eax, 0x28558b48 
+2540 smartscreen.ex 0x2206f5f0000 0x2206f60ffff VadS PAGE_EXECUTE_READWRITE 1 1 Disabled  
+48 89 54 24 10 48 89 4c H.T$.H.L 
+24 08 4c 89 44 24 18 4c $.L.D$.L 
+89 4c 24 20 48 8b 41 28 .L$.H.A( 
+48 8b 48 08 48 8b 51 50 H.H.H.QP 
+48 83 e2 f8 48 8b ca 48 H...H..H 
+b8 60 00 5f 6f 20 02 00 .`._o... 
+00 48 2b c8 48 81 f9 70 .H+.H..p 
+0f 00 00 76 09 48 c7 c1 ...v.H..  
+0x2206f5f0000: mov qword ptr [rsp + 0x10], rdx 
+0x2206f5f0005: mov qword ptr [rsp + 8], rcx 
+0x2206f5f000a: mov qword ptr [rsp + 0x18], r8 
+0x2206f5f000f: mov qword ptr [rsp + 0x20], r9 
+0x2206f5f0014: mov rax, qword ptr [rcx + 0x28] 
+0x2206f5f0018: mov rcx, qword ptr [rax + 8] 
+0x2206f5f001c: mov rdx, qword ptr [rcx + 0x50] 
+0x2206f5f0020: and rdx, 0xfffffffffffffff8 
+0x2206f5f0024: mov rcx, rdx 
+0x2206f5f0027: movabs rax, 0x2206f5f0060 
+0x2206f5f0031: sub rcx, rax 
+0x2206f5f0034: cmp rcx, 0xf70 
+0x2206f5f003b: jbe 0x2206f5f0046 
+
+Time Stamp: Thu Apr  4 23:06:28 2024 
+
+******* End of command output ****** 

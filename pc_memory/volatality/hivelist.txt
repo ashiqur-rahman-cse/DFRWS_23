@@ -1,0 +1,40 @@
+******* End of command output ****** 
+
+Time Stamp: Thu Apr  4 21:24:53 2024 
+"C:\AugustaUniversity\contest\challenge\experiments\programming\files\VolatilityWorkbench\vol.exe" -f "C:\AugustaUniversity\contest\challenge\experiments\DESKTOP-JKS05LO-20230622-143255.raw" windows.registry.hivelist.HiveList  
+Please wait, this may take a few minutes. 
+
+Volatility 3 Framework 2.5.0 
+Offset FileFullPath File output 
+0x890e1f054000  Disabled 
+0x890e1f064000 \REGISTRY\MACHINE\SYSTEM Disabled 
+0x890e1f10e000  Disabled 
+0x890e1fb35000 \REGISTRY\MACHINE\BCD00000000 Disabled 
+0x890e1fb33000 \SystemRoot\System32\Config\SOFTWARE Disabled 
+0x890e22841000 \SystemRoot\System32\Config\DEFAULT Disabled 
+0x890e229aa000 \SystemRoot\System32\Config\SECURITY Disabled 
+0x890e22c2a000 \SystemRoot\System32\Config\SAM Disabled 
+0x890e22cda000 \??\C:\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT Disabled 
+0x890e22e49000 \SystemRoot\System32\Config\BBI Disabled 
+0x890e22eb4000 \??\C:\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT Disabled 
+0x890e24092000 \??\C:\WINDOWS\AppCompat\Programs\Amcache.hve Disabled 
+0x890e2424d000 \??\C:\Users\krist\ntuser.dat Disabled 
+0x890e2424f000 \??\C:\Users\krist\AppData\Local\Microsoft\Windows\UsrClass.dat Disabled 
+0x890e24c84000 \REGISTRY\A\{8AC5084B-D4CE-423F-8625-55020B31700B} Disabled 
+0x890e24cec000 \REGISTRY\A\{919b656f-a8c1-c7e1-d65b-98dc6eb4d44a} Disabled 
+0x890e24ee9000 \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Search_1.14.10.19041_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat Disabled 
+0x890e24f59000 \??\C:\Users\krist\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat Disabled 
+0x890e254ac000 \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.YourPhone_1.23042.108.0_x64__8wekyb3d8bbwe\ActivationStore.dat Disabled 
+0x890e259d9000  Disabled 
+0x890e2544d000 \??\C:\Users\krist\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Settings\settings.dat Disabled 
+0x890e24b17000 \??\C:\Users\krist\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\Settings\settings.dat Disabled 
+0x890e24b19000 \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.WindowsAppRuntime.1.3_3000.882.2207.0_x64__8wekyb3d8bbwe\ActivationStore.dat Disabled 
+0x890e2315a000  Disabled 
+0x890e23122000 \??\C:\Users\krist\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\SystemAppData\Helium\User.dat Disabled 
+0x890e23124000 \??\C:\Users\krist\AppData\Local\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\SystemAppData\Helium\UserClasses.dat Disabled 
+0x890e23126000 \??\C:\ProgramData\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\S-1-5-21-2995338997-3818539084-3023894279-1001\SystemAppData\Helium\Cache\d5cc392bb9913fcb_COM15.dat Disabled 
+0x890e23128000 \??\C:\ProgramData\Packages\Microsoft.YourPhone_8wekyb3d8bbwe\S-1-5-21-2995338997-3818539084-3023894279-1001\SystemAppData\Helium\Cache\d5cc392bb9913fcb.dat Disabled 
+
+Time Stamp: Thu Apr  4 21:26:58 2024 
+
+******* End of command output ******
