@@ -1,0 +1,8 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.3
+# Feature-Recorder: domain
+# Filename: OnChipRAM_20230629143506.bin
+# Histogram-File-Version: 1.1
+n=2	255.0.0.0
+n=1	1.6.0.1
+n=1	192.168.10.45

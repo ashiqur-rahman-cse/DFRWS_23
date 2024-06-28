@@ -1,0 +1,9 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.3
+# Feature-Recorder: ether
+# Filename: OnChipRAM_20230629150509.bin
+# Histogram-File-Version: 1.1
+n=24	00:80:F4:4C:3E:DD
+n=16	00:24:9B:73:79:F3
+n=8	00:24:9B:30:6B:E2
+n=1	00:80:f4:4c:3e:dd

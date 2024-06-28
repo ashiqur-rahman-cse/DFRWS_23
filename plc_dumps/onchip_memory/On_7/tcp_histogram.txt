@@ -1,0 +1,8 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.3
+# Feature-Recorder: tcp
+# Filename: OnChipRAM_20230629160514.bin
+# Histogram-File-Version: 1.1
+n=22	192.168.10.130 61864 -> 192.168.10.45 502 (TCP)
+n=1	192.168.10.130 20778 -> 192.168.10.45 17409 (TCP)
+n=1	192.168.10.130 61780 -> 192.168.10.45 502 (TCP)

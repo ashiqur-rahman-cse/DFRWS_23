@@ -1,0 +1,47 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.3
+# Feature-Recorder: ip
+# Filename: OnChipRAM_20230629152010.bin
+# Feature-File-Version: 1.1
+35920	192.168.10.130	struct ip L (src) cksum-ok
+35920	192.168.10.45	struct ip R (dst) cksum-ok
+36944	192.168.10.130	struct ip L (src) cksum-ok
+36944	192.168.10.45	struct ip R (dst) cksum-ok
+37968	192.168.10.130	struct ip L (src) cksum-ok
+37968	192.168.10.45	struct ip R (dst) cksum-ok
+38992	192.168.10.130	struct ip L (src) cksum-ok
+38992	192.168.10.45	struct ip R (dst) cksum-ok
+40016	192.168.10.130	struct ip L (src) cksum-ok
+40016	192.168.10.45	struct ip R (dst) cksum-ok
+40712	192.168.10.130	struct ip L (src) cksum-ok
+40712	192.168.10.45	struct ip R (dst) cksum-ok
+41040	192.168.10.130	struct ip L (src) cksum-ok
+41040	192.168.10.45	struct ip R (dst) cksum-ok
+41552	192.168.10.130	struct ip L (src) cksum-ok
+41552	192.168.10.45	struct ip R (dst) cksum-ok
+42064	192.168.10.130	struct ip L (src) cksum-ok
+42064	192.168.10.45	struct ip R (dst) cksum-ok
+43260	192.168.10.130	struct ip L (src) cksum-ok
+43260	192.168.10.45	struct ip R (dst) cksum-ok
+43864	192.168.10.130	struct ip L (src) cksum-ok
+43864	192.168.10.45	struct ip R (dst) cksum-ok
+44112	192.168.10.130	struct ip L (src) cksum-ok
+44112	192.168.10.45	struct ip R (dst) cksum-ok
+44624	192.168.10.130	struct ip L (src) cksum-ok
+44624	192.168.10.45	struct ip R (dst) cksum-ok
+47696	192.168.10.130	struct ip L (src) cksum-ok
+47696	192.168.10.45	struct ip R (dst) cksum-ok
+48208	192.168.10.130	struct ip L (src) cksum-ok
+48208	192.168.10.45	struct ip R (dst) cksum-ok
+48720	192.168.10.130	struct ip L (src) cksum-ok
+48720	192.168.10.45	struct ip R (dst) cksum-ok
+49308	192.168.10.130	struct ip L (src) cksum-ok
+49308	192.168.10.45	struct ip R (dst) cksum-ok
+49744	192.168.10.130	struct ip L (src) cksum-ok
+49744	192.168.10.45	struct ip R (dst) cksum-ok
+50256	192.168.10.130	struct ip L (src) cksum-ok
+50256	192.168.10.45	struct ip R (dst) cksum-ok
+50768	192.168.10.130	struct ip L (src) cksum-ok
+50768	192.168.10.45	struct ip R (dst) cksum-ok
+80314	192.168.10.130	struct ip L (src) cksum-ok
+80314	192.168.10.45	struct ip R (dst) cksum-ok

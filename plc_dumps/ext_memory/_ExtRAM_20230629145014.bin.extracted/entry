@@ -1,0 +1,1408 @@
+<?xml version="1.0"?>
+<MetaDataEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Devices>
+    <DeviceMetadata>
+      <I>
+        <Address>%I0.0</Address>
+        <Index>0</Index>
+        <Symbol>LS1</Symbol>
+        <Comment>Limit Switch Floor 1</Comment>
+      </I>
+      <I>
+        <Address>%I0.1</Address>
+        <Index>1</Index>
+        <Symbol>LS2</Symbol>
+        <Comment>Limit Switch Floor 2</Comment>
+      </I>
+      <I>
+        <Address>%I0.2</Address>
+        <Index>2</Index>
+        <Symbol>LS3</Symbol>
+        <Comment>Limit Switch Floor 3</Comment>
+      </I>
+      <I>
+        <Address>%I0.3</Address>
+        <Index>3</Index>
+        <Symbol>LDR_CLOSE</Symbol>
+        <Comment>Door Limit Close</Comment>
+      </I>
+      <I>
+        <Address>%I0.4</Address>
+        <Index>4</Index>
+        <Symbol>ECB4</Symbol>
+        <Comment>No External Calling Button 4</Comment>
+      </I>
+      <I>
+        <Address>%I0.5</Address>
+        <Index>5</Index>
+        <Symbol>ECB1</Symbol>
+        <Comment>External Calling Button 1</Comment>
+      </I>
+      <I>
+        <Address>%I0.6</Address>
+        <Index>6</Index>
+        <Symbol>ECB2</Symbol>
+        <Comment>External Calling Button 2</Comment>
+      </I>
+      <I>
+        <Address>%I0.7</Address>
+        <Index>7</Index>
+        <Symbol>ECB3</Symbol>
+        <Comment>External Calling Button 3</Comment>
+      </I>
+      <I>
+        <Address>%I0.8</Address>
+        <Index>8</Index>
+        <Symbol>LDR_OPEN</Symbol>
+        <Comment>Door Limit Close</Comment>
+      </I>
+      <Q>
+        <Address>%Q0.0</Address>
+        <Index>0</Index>
+        <Symbol>UP</Symbol>
+      </Q>
+      <Q>
+        <Address>%Q0.1</Address>
+        <Index>1</Index>
+        <Symbol>DOWN</Symbol>
+      </Q>
+      <Q>
+        <Address>%Q0.2</Address>
+        <Index>2</Index>
+        <Symbol>FD_C</Symbol>
+      </Q>
+      <Q>
+        <Address>%Q0.3</Address>
+        <Index>3</Index>
+        <Symbol>DOOR_OPEN</Symbol>
+      </Q>
+      <Q>
+        <Address>%Q0.4</Address>
+        <Index>4</Index>
+        <Symbol>FD_AGD</Symbol>
+      </Q>
+      <Q>
+        <Address>%Q0.5</Address>
+        <Index>5</Index>
+        <Symbol>FD_E</Symbol>
+      </Q>
+      <Q>
+        <Address>%Q0.6</Address>
+        <Index>6</Index>
+        <Symbol>DOOR_CLOSE</Symbol>
+      </Q>
+      <Name>MyController</Name>
+    </DeviceMetadata>
+  </Devices>
+  <ModemReference>No Modem</ModemReference>
+  <MB>
+    <Index>0</Index>
+    <Symbol>WATF4</Symbol>
+    <Comment>Was At Floor 4</Comment>
+  </MB>
+  <MB>
+    <Index>1</Index>
+    <Symbol>WATF1</Symbol>
+    <Comment>Was At Floor 1</Comment>
+  </MB>
+  <MB>
+    <Index>2</Index>
+    <Symbol>WATF2</Symbol>
+    <Comment>Was At Floor 2</Comment>
+  </MB>
+  <MB>
+    <Index>3</Index>
+    <Symbol>WATF3</Symbol>
+    <Comment>Was At Floor 3</Comment>
+  </MB>
+  <MB>
+    <Index>4</Index>
+    <Symbol>F1CALL</Symbol>
+  </MB>
+  <MB>
+    <Index>5</Index>
+    <Symbol>F2CALL</Symbol>
+  </MB>
+  <MB>
+    <Index>6</Index>
+    <Symbol>F3CALL</Symbol>
+  </MB>
+  <MB>
+    <Index>7</Index>
+    <Symbol>ATF1</Symbol>
+    <Comment>At Floor 1</Comment>
+  </MB>
+  <MB>
+    <Index>8</Index>
+    <Symbol>ATF2</Symbol>
+    <Comment>At Floor 2</Comment>
+  </MB>
+  <MB>
+    <Index>9</Index>
+    <Symbol>ATF3</Symbol>
+    <Comment>At Floor 3</Comment>
+  </MB>
+  <MB>
+    <Index>10</Index>
+    <Symbol>F4CALL</Symbol>
+  </MB>
+  <MB>
+    <Index>11</Index>
+    <Symbol>ATF4</Symbol>
+  </MB>
+  <MB>
+    <Index>12</Index>
+    <Symbol>DOOR_CNT</Symbol>
+  </MB>
+  <MB>
+    <Index>30</Index>
+    <Symbol>F1LATCH</Symbol>
+  </MB>
+  <MB>
+    <Index>31</Index>
+    <Symbol>F2LATCH</Symbol>
+  </MB>
+  <MB>
+    <Index>32</Index>
+    <Symbol>F3LATCH</Symbol>
+  </MB>
+  <MB>
+    <Index>60</Index>
+    <Symbol>SAME_CALL</Symbol>
+    <Comment>SameFloorCall</Comment>
+  </MB>
+  <T>
+    <Index>0</Index>
+    <Preset>10</Preset>
+    <Base>OneSecond</Base>
+  </T>
+  <T>
+    <Index>1</Index>
+    <Preset>1000</Preset>
+    <Base>OneMilliSeconds</Base>
+  </T>
+  <C>
+    <Index>0</Index>
+    <Preset>1</Preset>
+  </C>
+  <Pids />
+  <Pous>
+    <PouMetadata>
+      <Name>What Floor</Name>
+      <Rungs>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+      </Rungs>
+      <SrNumber>-1</SrNumber>
+      <SectionNumber>1</SectionNumber>
+    </PouMetadata>
+    <PouMetadata>
+      <Name>First Called</Name>
+      <Rungs>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+      </Rungs>
+      <SrNumber>-1</SrNumber>
+      <SectionNumber>2</SectionNumber>
+    </PouMetadata>
+    <PouMetadata>
+      <Name>Second Called</Name>
+      <Rungs>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+      </Rungs>
+      <SrNumber>-1</SrNumber>
+      <SectionNumber>3</SectionNumber>
+    </PouMetadata>
+    <PouMetadata>
+      <Name>Third Called</Name>
+      <Rungs>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+      </Rungs>
+      <SrNumber>-1</SrNumber>
+      <SectionNumber>4</SectionNumber>
+    </PouMetadata>
+    <PouMetadata>
+      <Name>Floor Display</Name>
+      <Rungs>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+      </Rungs>
+      <SrNumber>-1</SrNumber>
+      <SectionNumber>5</SectionNumber>
+    </PouMetadata>
+    <PouMetadata>
+      <Name>Elevator Door</Name>
+      <Rungs>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+        <RungMetadata>
+          <MainComment />
+          <Comments />
+          <Name />
+          <IsLadderSelected>false</IsLadderSelected>
+        </RungMetadata>
+      </Rungs>
+      <SrNumber>-1</SrNumber>
+      <SectionNumber>6</SectionNumber>
+    </PouMetadata>
+  </Pous>
+  <GrafcetSteps />
+  <SystemBits>
+    <MemoryBit>
+      <Index>0</Index>
+      <Symbol>SB_COLDSTART</Symbol>
+      <Comment>Indicates or executes a cold start (data initialized to default values)</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>1</Index>
+      <Symbol>SB_WARMSTART</Symbol>
+      <Comment>Indicates there was a warm start with data backup</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>4</Index>
+      <Symbol>SB_TB10MS</Symbol>
+      <Comment>Time base of 10 ms generated by an internal clock</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>5</Index>
+      <Symbol>SB_TB100MS</Symbol>
+      <Comment>Time base of 100 ms generated by an internal clock</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>6</Index>
+      <Symbol>SB_TB1S</Symbol>
+      <Comment>Time base of 1 s generated by an internal clock</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>7</Index>
+      <Symbol>SB_TB1MIN</Symbol>
+      <Comment>Time base of 1 min generated by an internal clock</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>10</Index>
+      <Symbol>SB_IOCOMBUS</Symbol>
+      <Comment>I/O communication is running correctly (1), I/O communication error detected (0)</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>11</Index>
+      <Symbol>SB_WATCHDOG</Symbol>
+      <Comment>Watchdog overflow causes the controller to change to HALT</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>12</Index>
+      <Symbol>SB_RUNMODE</Symbol>
+      <Comment>The controller is running</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>13</Index>
+      <Symbol>SB_FIRSTRUN</Symbol>
+      <Comment>Indicates the first controller cycle in RUN mode</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>14</Index>
+      <Symbol>SB_IOFORCED</Symbol>
+      <Comment>This bit indicates there is at least one input or output forced</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>15</Index>
+      <Symbol>SB_INFORCED</Symbol>
+      <Comment>This bit indicates there is at least one input forced</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>16</Index>
+      <Symbol>SB_OUTFORCED</Symbol>
+      <Comment>This bit indicates there is at least one output forced</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>17</Index>
+      <Symbol>SB_LASTBIT</Symbol>
+      <Comment>It indicates the value of the last ejected bit</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>18</Index>
+      <Symbol>SB_OPERROR</Symbol>
+      <Comment>It indicates an overflow when a 16 bit operation is performed</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>19</Index>
+      <Symbol>SB_OVERRUN</Symbol>
+      <Comment>It indicates scan time greater than the period defined by the user</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>20</Index>
+      <Symbol>SB_INDERROR</Symbol>
+      <Comment>This bit indicates an index overflow of the indexed object address when a 16 bit operation is performed</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>21</Index>
+      <Symbol>SB_INITGRAFCET</Symbol>
+      <Comment>At state 1, this bit causes GRAFCET initialization. Active steps are deactivated and initial steps are activated</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>22</Index>
+      <Symbol>SB_RESETGRAFCET</Symbol>
+      <Comment>At state 1, this bit causes the active steps of the entire GRAFCET to be deactivated</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>23</Index>
+      <Symbol>SB_FREEZEGRAFCET</Symbol>
+      <Comment>Set to 1, this bit validates the pre-positioning of GRAFCET. Maintaining this bit at 1 freezes the GRAFCET (freezes the chart)</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>33</Index>
+      <Symbol>SB_CONFETH</Symbol>
+      <Comment>This bit indicates if a new Ethernet configuration is changing</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>34</Index>
+      <Symbol>SB_AUTOETH</Symbol>
+      <Comment>Set to 1, this bit allows to force some specific Ethernet configuration set in %S35 and %S36</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>35</Index>
+      <Symbol>SB_DUPLEXMODE</Symbol>
+      <Comment>This bit indicates Ethernet Duplex mode. Set to 0 if Half Duplex, Set to 1 if Full Duplex</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>36</Index>
+      <Symbol>SB_SPEEDETH</Symbol>
+      <Comment>This bit indicates Ethernet speed. Set to 0 if 10 Mbps, Set to 1 if 100 Mbps</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>38</Index>
+      <Symbol>SB_ALLOWEVENT</Symbol>
+      <Comment>This bit indicates if events are placed in the events queue as soon as they are detected</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>39</Index>
+      <Symbol>SB_LOSTEVENT</Symbol>
+      <Comment>This bit indicates if there is a saturation of events queue</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>49</Index>
+      <Symbol>SB_REARMOUTPUTS</Symbol>
+      <Comment>Set to 1, the automatic re-arming of outputs following a short circuit is enabled</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>50</Index>
+      <Symbol>SB_RTCUPDATE</Symbol>
+      <Comment>Set to 1, this bit allows to update the date and time</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>51</Index>
+      <Symbol>SB_RTCSTATUS</Symbol>
+      <Comment>Set to 1, the date and time must be initialized by the user</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>52</Index>
+      <Symbol>SB_RTCERROR</Symbol>
+      <Comment>At state 1, the date and time must be initialized</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>59</Index>
+      <Symbol>SB_DATEUPDATE</Symbol>
+      <Comment>Set to 1, the date and time are incremented or decremented according to the rising edges on the control bits set in %SW59</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>75</Index>
+      <Symbol>SB_BATSTATUS</Symbol>
+      <Comment>Set to 1, external battery power is low, or no external battery is detected</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>91</Index>
+      <Symbol>SB_MWERASE</Symbol>
+      <Comment>User sets this bit to 1 to erase all %MW variables in the flash memory</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>92</Index>
+      <Symbol>SB_MWSAVED</Symbol>
+      <Comment>Set to 1 if there is valid data saved on flash</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>93</Index>
+      <Symbol>SB_MWBACKUP</Symbol>
+      <Comment>User set this bit to 1 to store the %MW variable in the flash (up to 1000)</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>94</Index>
+      <Symbol>SB_MWRESTORE</Symbol>
+      <Comment>User set this bit to 1 to restore the saved data</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>96</Index>
+      <Symbol>SB_PROGBACKUP</Symbol>
+      <Comment>Set to 1, the backup program is valid</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>101</Index>
+      <Symbol>SB_MBADDRESS</Symbol>
+      <Comment>Set to 1, the address can be changed by changing the values of %SW101 (port 1) or %SW102 (port 2)</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>103</Index>
+      <Symbol>SB_ASCIICOM1</Symbol>
+      <Comment>Set to 1, this bit allows to configure ASCII protocol on Serial Line 1</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>104</Index>
+      <Symbol>SB_ASCIICOM2</Symbol>
+      <Comment>Set to 1, this bit allows to configure ASCII protocol on Serial Line 2</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>105</Index>
+      <Symbol>SB_MODINIT</Symbol>
+      <Comment>Set to 1, this bit allows to initialize the modem, see also %SW167</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>119</Index>
+      <Symbol>SB_IOERROR</Symbol>
+      <Comment>This bit is set to 0 when an I/O communication interruption is detected on the base controller</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>122</Index>
+      <Symbol>SB_DALARM</Symbol>
+      <Comment>The display will switch automatically to the alarm page</Comment>
+    </MemoryBit>
+    <MemoryBit>
+      <Index>123</Index>
+      <Symbol>SB_DRED</Symbol>
+      <Comment>The Display backlight will be red as long as an alarm is active</Comment>
+    </MemoryBit>
+  </SystemBits>
+  <SystemWords>
+    <MemoryWord>
+      <Index>0</Index>
+      <Symbol>SW_MASTERTASK</Symbol>
+      <Comment>Modifies controller scan period defined at configuration through the user program in the Animation Table Editor</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>1</Index>
+      <Symbol>SW_PERTASK</Symbol>
+      <Comment>Modifies the cycle time [2...255 ms] of the Periodic task</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>6</Index>
+      <Symbol>SW_CONTROLSTATUS</Symbol>
+      <Comment>Controller Status: NO CONFIG (0), STOP (2), RUN (3), HALT (4), POWERLESS MODE (5)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>7</Index>
+      <Symbol>SW_STATE</Symbol>
+      <Comment>This word shows the state of the controller (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>11</Index>
+      <Symbol>SW_WATCHDOG</Symbol>
+      <Comment>Contains the maximum value of the watchdog</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>13</Index>
+      <Symbol>SW_BOOTVERSION</Symbol>
+      <Comment>Contains the boot version of the controller</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>14</Index>
+      <Symbol>SW_COMVERSION</Symbol>
+      <Comment>Contains the commercial version of the controller</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>15</Index>
+      <Symbol>SW_FW1VERSION</Symbol>
+      <Comment>Contains the Firmware version of the controller (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>16</Index>
+      <Symbol>SW_FW2VERSION</Symbol>
+      <Comment>Contains the Firmware version of the controller (2° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>17</Index>
+      <Symbol>SW_FLOATSTATUS</Symbol>
+      <Comment>Default status when an error is detected in a floating arithmetic operation (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>18</Index>
+      <Symbol>SW_TM1COUNTER</Symbol>
+      <Comment>Contains the absolute timer counter (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>19</Index>
+      <Symbol>SW_TM2COUNTER</Symbol>
+      <Comment>Contains the absolute timer counter (2° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>30</Index>
+      <Symbol>SW_LASTSCAN1</Symbol>
+      <Comment>Shows execution time of the last controller scan cycle (in ms).If the scan time is 2,250 ms, %SW30 = 2 and %SW70 = 250</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>31</Index>
+      <Symbol>SW_MAXSCAN1</Symbol>
+      <Comment>Shows execution time of the longest controller scan cycle since last cold start (in ms). If the scan time is 2,250 ms, %SW31 = 2 and %SW71 = 250</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>32</Index>
+      <Symbol>SW_MINSCAN1</Symbol>
+      <Comment>Shows execution time of shortest controller scan cycle since the last cold start (in ms). If the scan time is 2,250 ms, %SW32 = 2 and %SW72 = 250</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>33</Index>
+      <Symbol>SW_IP1ADDRESS</Symbol>
+      <Comment>For IP address AA.BB.CC.DD: %SW33 = CC.DD and %SW34 = AA.BB (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>34</Index>
+      <Symbol>SW_IP2ADDRESS</Symbol>
+      <Comment>For IP address AA.BB.CC.DD: %SW33 = CC.DD and %SW34 = AA.BB (2° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>35</Index>
+      <Symbol>SW_SUBNET1</Symbol>
+      <Comment>For Sub-network mask AA.BB.CC.DD: %SW35 = CC.DD and %SW36 = AA.BB (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>36</Index>
+      <Symbol>SW_SUBNET2</Symbol>
+      <Comment>For Sub-network mask AA.BB.CC.DD: %SW35 = CC.DD and %SW36 = AA.BB (2° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>37</Index>
+      <Symbol>SW_GATEWAY1</Symbol>
+      <Comment>For Gateway address AA.BB.CC.DD: %SW37 = CC.DD and %SW38 = AA.BB (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>38</Index>
+      <Symbol>SW_GATEWAY2</Symbol>
+      <Comment>For Gateway address AA.BB.CC.DD: %SW37 = CC.DD and %SW38 = AA.BB (2° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>39</Index>
+      <Symbol>SW_PERTIME</Symbol>
+      <Comment>Shows the average execution time of the periodic task in µs (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>40</Index>
+      <Symbol>SW_EV0TIME</Symbol>
+      <Comment>Shows the average execution time of the event 0 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>41</Index>
+      <Symbol>SW_EV1TIME</Symbol>
+      <Comment>Shows the average execution time of the event 1 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>42</Index>
+      <Symbol>SW_EV2TIME</Symbol>
+      <Comment>Shows the average execution time of the event 2 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>43</Index>
+      <Symbol>SW_EV3TIME</Symbol>
+      <Comment>Shows the average execution time of the event 3 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>44</Index>
+      <Symbol>SW_EV4TIME</Symbol>
+      <Comment>Shows the average execution time of the event 4 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>45</Index>
+      <Symbol>SW_EV5TIME</Symbol>
+      <Comment>Shows the average execution time of the event 5 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>46</Index>
+      <Symbol>SW_EV6TIME</Symbol>
+      <Comment>Shows the average execution time of the event 6 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>47</Index>
+      <Symbol>SW_EV7TIME</Symbol>
+      <Comment>Shows the average execution time of the event 7 in us (last 5 times)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>48</Index>
+      <Symbol>SW_NBEVENTS</Symbol>
+      <Comment>Shows how many events have been executed since the last cold start</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>49</Index>
+      <Symbol>SW_RTCDAY</Symbol>
+      <Comment>RTC Function: contains in BCD xN Day of the week (N=1 for Monday)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>50</Index>
+      <Symbol>SW_RTCSEC</Symbol>
+      <Comment>RTC Function: contains in BCD 00SS Seconds</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>51</Index>
+      <Symbol>SW_RTCHHMM</Symbol>
+      <Comment>RTC Function: contains in BCD HHMM: hour and minute</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>52</Index>
+      <Symbol>SW_RTCMMDD</Symbol>
+      <Comment>RTC Function: contains in BCD MMDD: month and day</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>53</Index>
+      <Symbol>SW_RTCCCYY</Symbol>
+      <Comment>RTC Function: contains in BCD CCYY: century and year</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>54</Index>
+      <Symbol>SW_LS1TIME</Symbol>
+      <Comment>Time of the last power failure or controller stop (in BCD): SS Seconds</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>55</Index>
+      <Symbol>SW_LS2TIME</Symbol>
+      <Comment>Time of the last power failure or controller stop (in BCD): HHMM Hour and minute</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>56</Index>
+      <Symbol>SW_LS3TIME</Symbol>
+      <Comment>Time of the last power failure or controller stop (in BCD): MMDD Month and day</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>57</Index>
+      <Symbol>SW_LS4TIME</Symbol>
+      <Comment>Time of the last power failure or controller stop (in BCD): CCYY Century and year</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>58</Index>
+      <Symbol>SW_LASTSTOP</Symbol>
+      <Comment>Displays code giving cause of last stop: Run/Stop input edge,Stop at software detected fault, Stop command, Power outage,Stop at hardware detected fault</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>59</Index>
+      <Symbol>SW_ADJUSTDATE</Symbol>
+      <Comment>Contains two sets of 8 bits to adjust current date.The operation is always performed on rising edge of the bit. This word is enabled by bit %S59</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>62</Index>
+      <Symbol>SW_ETHERROR</Symbol>
+      <Comment>Shows the Ethernet error code (0 No error, 1 Duplicate IP, 2 DHCP in Progress, 3 BOOTP in Progress, 4 Invalid parameters, 5 Fixed IP in progress, 6 Ethernet com in Fail)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>63</Index>
+      <Symbol>SW_EXCH1ERROR</Symbol>
+      <Comment>Contains EXCH1 error code, see online help for details</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>64</Index>
+      <Symbol>SW_EXCH2ERROR</Symbol>
+      <Comment>Contains EXCH2 error code, see online help for details</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>65</Index>
+      <Symbol>SW_EXCH3ERROR</Symbol>
+      <Comment>Contains EXCH3 error code for Ethernet controllers, see online help for details</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>67</Index>
+      <Symbol>SW_CONTID</Symbol>
+      <Comment>Contains the logic controller code ID. For more information, refer to the M221 Logic Controller Code ID table</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>70</Index>
+      <Symbol>SW_LASTSCAN2</Symbol>
+      <Comment>Shows the microseconds of the execution time of the last controller scan cycle. If the scan time is 2,250 ms the %SW30 will be 2 and the %SW70 = 250</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>71</Index>
+      <Symbol>SW_MAXSCAN2</Symbol>
+      <Comment>Shows the microseconds of the execution time of the longest controller scan cycle since the last cold start. If the scan time is 2,250 ms the %SW31 will be 2 and the %SW71 = 250</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>72</Index>
+      <Symbol>SW_MINSCAN2</Symbol>
+      <Comment>Shows the microseconds of the execution time of shortest controller scan cycle since the last cold start. If the scan time is 2,250 ms the %SW32 will be 2 and the %SW72 = 250</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>75</Index>
+      <Symbol>SW_CPULOAD</Symbol>
+      <Comment>Shows percentage of processing load</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>76</Index>
+      <Symbol>SW_COUNTD1</Symbol>
+      <Comment>Down Counter 1, decremented individually by the system every ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>77</Index>
+      <Symbol>SW_COUNTD2</Symbol>
+      <Comment>Down Counter 2, decremented individually by the system every ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>78</Index>
+      <Symbol>SW_COUNTD3</Symbol>
+      <Comment>Down Counter 3, decremented individually by the system every ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>79</Index>
+      <Symbol>SW_COUNTD4</Symbol>
+      <Comment>Down Counter 4, decremented individually by the system every ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>80</Index>
+      <Symbol>SW_ANASTATUS</Symbol>
+      <Comment>Each bit indicate status of the embedded analog inputs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>94</Index>
+      <Symbol>SW_SIGNATURE</Symbol>
+      <Comment>Contains the signature, changes in case of an application change, in terms of configuration or programming data</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>95</Index>
+      <Symbol>SW_SIGNATURE1</Symbol>
+      <Comment>Contains the signature, changes in case of an application change, in terms of configuration or programming data</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>96</Index>
+      <Symbol>SW_SAVERESTORE</Symbol>
+      <Comment>Contains the command and/or diagnostics for save/restore function of application program (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>98</Index>
+      <Symbol>SW_SL1POSTST</Symbol>
+      <Comment>Post configuration status of Serial Line 1. The bits are set to 1 when the post configuration was applied for the parameter</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>99</Index>
+      <Symbol>SW_SL2POSTST</Symbol>
+      <Comment>Post configuration status of Serial Line 2. The bits are set to 1 when the post configuration was applied for the parameter</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>100</Index>
+      <Symbol>SW_ETHPOSTST</Symbol>
+      <Comment>Post configuration status of Ethernet port. The bits are set to 1 when the post configuration was applied for the parameter</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>101</Index>
+      <Symbol>SW_SL1ADDRESS</Symbol>
+      <Comment>Address of port 1, when bit %S101 is set to 1, you can change the Modbus address</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>102</Index>
+      <Symbol>SW_SL2ADDRESS</Symbol>
+      <Comment>Address of port 2, when bit %S101 is set to 1, you can change the Modbus address</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>103</Index>
+      <Symbol>SW_SL1CONF1</Symbol>
+      <Comment>Configuration for use of the ASCII protocol of port 1 when bit %S103 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>104</Index>
+      <Symbol>SW_SL2CONF1</Symbol>
+      <Comment>Configuration for use of the ASCII protocol of port 2 when bit %S104 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>105</Index>
+      <Symbol>SW_SL1CONF2</Symbol>
+      <Comment>Configuration for use of the ASCII protocol of port 1 when bit %S103 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>106</Index>
+      <Symbol>SW_SL2CONF2</Symbol>
+      <Comment>Configuration for use of the ASCII protocol of port 2 when bit %S104 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>107</Index>
+      <Symbol>SW_MACAD1</Symbol>
+      <Comment>For MAC address AA:BB:CC:DD:EE:FF %SW107 = AA:BB (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>108</Index>
+      <Symbol>SW_MACAD2</Symbol>
+      <Comment>For MAC address AA:BB:CC:DD:EE:FF %SW108 = CC:DD (2° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>109</Index>
+      <Symbol>SW_MACAD3</Symbol>
+      <Comment>For MAC address AA:BB:CC:DD:EE:FF %SW108 = EE:FF (3° word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>114</Index>
+      <Symbol>SW_SCH_ENABLE</Symbol>
+      <Comment>Enables or disables operation of schedule blocks by the user program or operator display</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>118</Index>
+      <Symbol>SW_CONTROLIOBUS</Symbol>
+      <Comment>Shows IO bus controller status (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>119</Index>
+      <Symbol>SW_IOOPTION</Symbol>
+      <Comment>Shows optional expansion module configuration (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>120</Index>
+      <Symbol>SW_IOSTATUS</Symbol>
+      <Comment>Shows expansion I/O module status (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>121</Index>
+      <Symbol>SW_SL1CONF3</Symbol>
+      <Comment>Configuration for use of the ASCII frame size of port 1 when bit %S103 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>122</Index>
+      <Symbol>SW_SL2CONF3</Symbol>
+      <Comment>Configuration for use of the ASCII frame size of port 2 when bit %S104 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>128</Index>
+      <Symbol>SW_CAR1STATUS</Symbol>
+      <Comment>Shows the status code for the Cartridge 1 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>129</Index>
+      <Symbol>SW_CAR2STATUS</Symbol>
+      <Comment>Shows the status code for the Cartridge 2 (refer F1 help for details)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>130</Index>
+      <Symbol>SW_EXE1MICROS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.2 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>131</Index>
+      <Symbol>SW_EXE2MICROS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.3 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>132</Index>
+      <Symbol>SW_EXE3MICROS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.4 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>133</Index>
+      <Symbol>SW_EXE4MICROS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.5 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>134</Index>
+      <Symbol>SW_EXE5MICROS</Symbol>
+      <Comment>Shows the last execution time of the event Threshold 0 of HSC0 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>135</Index>
+      <Symbol>SW_EXE6MICROS</Symbol>
+      <Comment>Shows the last execution time of the event Threshold 1 of HSC0 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>136</Index>
+      <Symbol>SW_EXE7MICROS</Symbol>
+      <Comment>Shows the last execution time of the event Threshold 0 of HSC1 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>137</Index>
+      <Symbol>SW_EXE8MICROS</Symbol>
+      <Comment>Shows the last execution time of the event Threshold 1 of HSC1 in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>138</Index>
+      <Symbol>SW_PERLAST</Symbol>
+      <Comment>Shows the last execution time of the periodic task in µs</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>139</Index>
+      <Symbol>SW_OUTPROT</Symbol>
+      <Comment>Shows the protection error status of output blocks</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>148</Index>
+      <Symbol>SW_NBPERS</Symbol>
+      <Comment>Number of persistent variables (maximum 1,000)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>149</Index>
+      <Symbol>SW_EXE1MS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.2 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>150</Index>
+      <Symbol>SW_EXE2MS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.3 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>151</Index>
+      <Symbol>SW_EXE3MS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.4 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>152</Index>
+      <Symbol>SW_EXE4MS</Symbol>
+      <Comment>Shows the last execution time of the event input %I0.5 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>153</Index>
+      <Symbol>SW_EXE5MS</Symbol>
+      <Comment>Shows the last execution time of the event threshold 0 of HSC0 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>154</Index>
+      <Symbol>SW_EXE6MS</Symbol>
+      <Comment>Shows the last execution time of the event threshold 1 of HSC0 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>155</Index>
+      <Symbol>SW_EXE7MS</Symbol>
+      <Comment>Shows the last execution time of the event threshold 0 of HSC1 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>156</Index>
+      <Symbol>SW_EXE8MS</Symbol>
+      <Comment>Shows the last execution time of the event threshold 1 of HSC1 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>157</Index>
+      <Symbol>SW_PERLASTMS</Symbol>
+      <Comment>Shows the last execution time of the PERIODIC task in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>158</Index>
+      <Symbol>SW_PERAVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of the PERIODIC task in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>159</Index>
+      <Symbol>SW_EV0AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 0 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>160</Index>
+      <Symbol>SW_EV1AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 1 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>161</Index>
+      <Symbol>SW_EV2AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 2 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>162</Index>
+      <Symbol>SW_EV3AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 3 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>163</Index>
+      <Symbol>SW_EV4AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 4 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>164</Index>
+      <Symbol>SW_EV5AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 5 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>165</Index>
+      <Symbol>SW_EV6AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 6 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>166</Index>
+      <Symbol>SW_EV7AVGMS</Symbol>
+      <Comment>Shows the average execution time (last 5 times) of event 7 in ms</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>167</Index>
+      <Symbol>SW_MODSTATUS</Symbol>
+      <Comment>Describes the answer of the modem to the last init command</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>168</Index>
+      <Symbol>SW_NBETHCON</Symbol>
+      <Comment>Shows the number of Ethernet Modbus TCP server connections in use</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>170</Index>
+      <Symbol>SW_NBSL1FRAMES</Symbol>
+      <Comment>Counts the number of frames transmitted by the Serial Line 1</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>171</Index>
+      <Symbol>SW_NBSL2FRAMES</Symbol>
+      <Comment>Counts the number of frames transmitted by the Serial Line 2</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>172</Index>
+      <Symbol>SW_NBUSBFRAMES</Symbol>
+      <Comment>Counts the number of frames transmitted by the USB channel</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>173</Index>
+      <Symbol>SW_NBTCPFRAMES</Symbol>
+      <Comment>Counts the number of frames transmitted by Modbus TCP on Ethernet</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>174</Index>
+      <Symbol>SW_NBSL1OK</Symbol>
+      <Comment>Counts the number of frames correctly received by the Serial Line 1</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>175</Index>
+      <Symbol>SW_NBSL2OK</Symbol>
+      <Comment>Counts the number of frames correctly received by the Serial Line 2</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>176</Index>
+      <Symbol>SW_NBUSBOK</Symbol>
+      <Comment>Counts the number of frames correctly received by the USB channel</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>177</Index>
+      <Symbol>SW_NBTCPOK</Symbol>
+      <Comment>Counts the number of frames correctly received by Modbus TCP on Ethernet</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>178</Index>
+      <Symbol>SW_NBSL1ERROR</Symbol>
+      <Comment>Counts the number of frames received in error by the Serial Line 1</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>179</Index>
+      <Symbol>SW_NBSL2ERROR</Symbol>
+      <Comment>Counts the number of frames received in error by the Serial Line 2</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>180</Index>
+      <Symbol>SW_NBUSBERROR</Symbol>
+      <Comment>Counts the number of frames received in error by the USB channel</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>181</Index>
+      <Symbol>SW_NBTCPERROR</Symbol>
+      <Comment>Counts the number of frames received in error by Modbus TCP on Ethernet</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>182</Index>
+      <Symbol>SW_DSPSTATE</Symbol>
+      <Comment>Remote Graphic Display connection state</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>183</Index>
+      <Symbol>SW_DSPERROR</Symbol>
+      <Comment>Remote Graphic Display last error detected</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>184</Index>
+      <Symbol>SW_DINDEX</Symbol>
+      <Comment>Contains the Display page INDEX and allows to choose an other page</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>185</Index>
+      <Symbol>SW_DSPVERSION</Symbol>
+      <Comment>Contains the version of the Remote Graphic Display</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>188</Index>
+      <Symbol>SW_MAPTRFRAMES</Symbol>
+      <Comment>Counts the number of frames transmitted by the Modbus mapping table</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>189</Index>
+      <Symbol>SW_MAPRECFRAMES</Symbol>
+      <Comment>Counts the number of frames correctly received by the Modbus mapping table</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>190</Index>
+      <Symbol>SW_NBIPTRA1</Symbol>
+      <Comment>Counts the number of frames transmitted on Ethernet IP (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>191</Index>
+      <Symbol>SW_NBIPTRA2</Symbol>
+      <Comment>Counts the number of frames transmitted on Ethernet IP (2nd word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>192</Index>
+      <Symbol>SW_NBIPREC1</Symbol>
+      <Comment>Counts the number of frames received on Ethernet IP (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>193</Index>
+      <Symbol>SW_NBIPREC2</Symbol>
+      <Comment>Counts the number of frames received on Ethernet IP (2nd word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>194</Index>
+      <Symbol>SW_NBIP_UCCM_MES1</Symbol>
+      <Comment>Counts the number of unconnected messages received on Ethernet IP (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>195</Index>
+      <Symbol>SW_NBIP_UCCM_MES2</Symbol>
+      <Comment>Counts the number of unconnected messages received on Ethernet IP (2nd word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>196</Index>
+      <Symbol>SW_NBIP_UCCM_INV1</Symbol>
+      <Comment>Counts the number of invalid unconnected messages received on Ethernet IP (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>197</Index>
+      <Symbol>SW_NBIP_UCCM_INV2</Symbol>
+      <Comment>Counts the number of invalid unconnected messages received on Ethernet IP (2nd word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>198</Index>
+      <Symbol>SW_NBIPC3REQ1</Symbol>
+      <Comment>Counts the number of class 3 requests received on Ethernet IP (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>199</Index>
+      <Symbol>SW_NBIPC3REQ2</Symbol>
+      <Comment>Counts the number of class 3 requests received on Ethernet IP (2nd word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>200</Index>
+      <Symbol>SW_NBIPC3INV1</Symbol>
+      <Comment>Counts the number of invalid class 3 requests received on Ethernet IP (1st word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>201</Index>
+      <Symbol>SW_NBIPC3INV2</Symbol>
+      <Comment>Counts the number of invalid class 3 requests received on Ethernet IP (2nd word)</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>202</Index>
+      <Symbol>SW_IPININST</Symbol>
+      <Comment>Reads the input Assembly Instance Number</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>203</Index>
+      <Symbol>SW_IPINSIZE</Symbol>
+      <Comment>Reads the input Assembly Instance Size</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>204</Index>
+      <Symbol>SW_IPOUTINST</Symbol>
+      <Comment>Reads the output Assembly Instance Number</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>205</Index>
+      <Symbol>SW_IPOUTSIZE</Symbol>
+      <Comment>Reads the output Assembly Instance Size</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>206</Index>
+      <Symbol>SW_IPNBTIMEOUT</Symbol>
+      <Comment>Counts the number of connection timeouts on Ethernet IP</Comment>
+    </MemoryWord>
+    <MemoryWord>
+      <Index>207</Index>
+      <Symbol>SW_IPFLAGIDLE</Symbol>
+      <Comment>Reads the Ethernet IP flag from last I/O packet: Idle (value=0), Run (value=1), Error (value=2)</Comment>
+    </MemoryWord>
+  </SystemWords>
+  <GlobalProperties>
+    <UserInformations />
+    <CompanyInformations />
+    <ProjectInformations>
+      <Name>New Project</Name>
+    </ProjectInformations>
+    <ProjectProtection>
+      <Active>false</Active>
+      <Password />
+      <CanView>true</CanView>
+    </ProjectProtection>
+    <ApplicationProtection>
+      <Active>false</Active>
+      <Password />
+    </ApplicationProtection>
+    <RemoteIpAddresses>
+      <IpAddresses />
+    </RemoteIpAddresses>
+    <ModemConfigurations>
+      <ModemConfigurationEntities />
+    </ModemConfigurations>
+    <KeepModbusParameters>false</KeepModbusParameters>
+  </GlobalProperties>
+  <MessageBlocks />
+  <GenericFunctionBlocks />
+  <CustomSymbols />
+  <TraceTimeBase>Time5Sec</TraceTimeBase>
+  <GrafcetPous />
+</MetaDataEntity>
